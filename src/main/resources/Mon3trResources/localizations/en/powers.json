@@ -15,8 +15,8 @@
   "mon3tr:FocusPower": {
     "NAME": "Battle Concentrate",
     "DESCRIPTIONS": [
-      "You can only play #yattack until the end of turn. NL Your attack deal #b",
-      " % more damage.",
+      "Until the end of turn, every time you play Attack, lose #b",
+      " #yHumanity.",
       "I need to keep on attacking!"
     ]
   },
@@ -26,7 +26,7 @@
       "Whenever your card is #yIterated 1, the Block and damage you can gain or deal from it will be increase by #b",
       " won't be more than #b",
       " times as original.",
-      "正负数量的 #y人性 效果分别变为15％和10％。"
+      "Reset the effect of positive and negative #yHumanity to 10% and 15% separately."
     ]
   },
   "mon3tr:DeconstructionPower": {
@@ -217,6 +217,17 @@
       "Whenever attack, lose 10% of the Max HP , and gain #b2 Strength .",
       "Whenever attack, lose 15% of the Max HP, and gain Block equals to 5% of the Max HP.",
       "Whenever attack, lose 15% of the Max HP, gain Block equals to 5% of the Max HP, and gain #b2 Strength ."
+    ]
+  },
+  "mon3tr:PersonalityPower": {
+    "NAME": "Humanity",
+    "DESCRIPTIONS": [
+      "Decrease the attack you receive by #b",
+      "Increase the attack you deal by #b",
+      "% (35% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
+      "% (50% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
+      "% (50% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
+      "% (75% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative."
     ]
   }
 }

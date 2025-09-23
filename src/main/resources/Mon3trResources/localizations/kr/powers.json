@@ -15,8 +15,8 @@
   "mon3tr:FocusPower": {
     "NAME": "전투 집중",
     "DESCRIPTIONS": [
-      "턴이 끝날 때까지 공격 카드만 사용할 수 있습니다. NL 공격 피해량이 #b",
-      " % 증가합니다.",
+      "Until the end of turn, every time you play Attack, lose #b",
+      " #yHumanity.",
       "공격에 집중해야 해!"
     ]
   },
@@ -26,7 +26,7 @@
       "모든 카드는 #y반복 횟수만큼, 피해량과 방어도가 #b",
       " 증가합니다. 증가량은 #b",
       " 배를 초과할 수 없습니다.",
-      "正负数量的 #y人性 效果分别变为15％和10％。"
+      "Reset the effect of positive and negative #yHumanity to 10% and 15% separately."
     ]
   },
   "mon3tr:DeconstructionPower": {
@@ -217,6 +217,17 @@
       "공격 시, 최대 체력의 10%를 잃고, #b힘을 2 얻습니다.",
       "공격 시, 최대 체력의 15%를 잃고, 최대 체력의 5% 만큼 방어도를 얻습니다.",
       "공격 시, 최대 체력의 15%를 잃고, 최대 체력의 5% 만큼 방어도를 얻으며, #b힘을 2 얻습니다."
+    ]
+  },
+  "mon3tr:PersonalityPower": {
+    "NAME": "Humanity",
+    "DESCRIPTIONS": [
+      "Decrease the attack you receive by #b",
+      "Increase the attack you deal by #b",
+      "% (35% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
+      "% (50% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
+      "% (50% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
+      "% (75% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative."
     ]
   }
 }
