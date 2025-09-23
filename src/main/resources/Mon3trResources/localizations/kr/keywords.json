@@ -1,0 +1,146 @@
+[
+  {
+    "NAMES": [
+      "반복"
+    ],
+    "DESCRIPTION": "Mon3tr의 카드에는 반복 횟수가 있습니다. 카드를 사용할 때마다 반복 횟수가 1 증가합니다."
+  },
+  {
+    "NAMES": [
+      "진화 X(조건 카드)",
+      "진화"
+    ],
+    "DESCRIPTION": "조건에 맞는 다른 카드를 사용하면, 이 카드의 #y반복 횟수를 X 만큼 증가시킵니다."
+  },
+  {
+    "NAMES": [
+      "익스프레스 카드",
+      "익스프레스"
+    ],
+    "DESCRIPTION": " 모든 익스프레스 카드는 #y휘발성을 가집니다. 모든 개체는 하나의 카드 효과만을 가질 수 있습니다."
+  },
+  {
+    "NAMES": [
+      "전사"
+    ],
+    "DESCRIPTION": "선택한 카드 수만큼 익스프레스 카드를 얻습니다. 공격 카드는 #y이로운 #y효과 로, 스킬 카드는 #y해로운 #y효과 로 포현될 가능성이 높습니다."
+  },
+  {
+    "NAMES": [
+      "sp",
+      "sp를"
+    ],
+    "DESCRIPTION": "일부 카드는 #ySP를 소모해야 합니다. Mon3tr의 카드의 #y반복 횟수가 증가할 때마다, 증가한 만큼 #ySP를 획득합니다."
+  },
+  {
+    "NAMES": [
+      "sp-소모량 X",
+      "sp-소모량",
+      "sp-소모량과"
+    ],
+    "DESCRIPTION": "특정 #ySP를 소모하여 카드를 사용하거나 특수 효과를 발동할 수 있습니다. #r멜트다운 #r턴 에서는 #ySP를 소모하지 않습니다."
+  },
+  {
+    "NAMES": [
+      "결정",
+      "결정을",
+      "결정으로"
+    ],
+    "DESCRIPTION": "공격 받을 시, 보유한 결정 만큼 적 전체에게 피해를 입히고 그 중 #b20% 를 없앱니다. NL 턴 시작 시, 모든 결정을 없애고 #yMon3tr는 그만큼 방어도를 얻습니다."
+  },
+  {
+    "NAMES": [
+      "무질서 결정",
+      "무질서"
+    ],
+    "DESCRIPTION": " #y무질서 #y결정을 가진 개체가 이로운 효과를 얻거나 해로운 효과를 잃을 때, 해당 개체는 X #y결정을 얻습니다."
+  },
+  {
+    "NAMES": [
+      "책략",
+      "책략",
+      "책략을"
+    ],
+    "DESCRIPTION": " #y책략: 으로 시작하는 시작하는 카드들은 손에 있을 때, 우클릭으로 형태를 전환할 수 있습니다. (단, #b과부하와 #r융해는 제외)."
+  },
+  {
+    "NAMES": [
+      "엑스트라 턴",
+      "엑스트라"
+    ],
+    "DESCRIPTION": "Mon3tr가 책략 카드를 사용하여 추가로 진행하는 턴으로, 여기에는 #b오버로드 #b턴과 #r멜트다운 #r턴이 포함됩니다."
+  },
+  {
+    "NAMES": [
+      "오버로드 턴",
+      "오버로드"
+    ],
+    "DESCRIPTION": "SP 요구량: #b40 NL 이번 턴에 얻는 SP는 #r절반으로 감소합니다. NL 해당 턴 시작 시 카드를 #b2 장 덜 뽑고, SP를 #b40 소모합니다."
+  },
+  {
+    "NAMES": [
+      "멜트다운 턴",
+      "멜트다운"
+    ],
+    "DESCRIPTION": "SP 요구량: #b80 NL 카드를 사용할 때, 현재 SP가 20 이상이라면 일시적으로 #y힘과 #y민첩을 1씩 얻고 카드를 1 장 뽑으며, 에너지를 1 회복합니다. 이후 SP를 #b20 소모합니다."
+  },
+  {
+    "NAMES": [
+      "재구성체",
+      "재구성체를",
+      "재구성체가"
+    ],
+    "DESCRIPTION": "#y비공격 #y피해를 대신 받으며, 적이 받는 모든 피해를 #b1 증가시킵니다. #r멜트다운 #r턴에 진입하면, #y흡수한 후, 체력을 #b5 회복합니다."
+  },
+  {
+    "NAMES": [
+      "흡수",
+      "흡수한"
+    ],
+    "DESCRIPTION": " #y재구성체의 체력만큼 방어도를 얻고, #y재구성체를 없앱니다."
+  },
+  {
+    "NAMES": [
+      "일회용"
+    ],
+    "DESCRIPTION": "사용 후 전투와 덱에서 제외됩니다."
+  },
+  {
+    "NAMES": [
+      "과거와 미래의 종착점"
+    ],
+    "DESCRIPTION": "턴 시작 시, 이 카드를 손으로 가져옵니다."
+  },
+  {
+    "NAMES": [
+      "영원과 현재의 오차",
+      "영원과"
+    ],
+    "DESCRIPTION": "반복 될 때마다, 추가로 반복 횟수가 2 증가합니다."
+  },
+  {
+    "NAMES": [
+      "재배치"
+    ],
+    "DESCRIPTION": "카드를 뽑을 때 추가로 1장의 카드를 뽑습니다."
+  },
+  {
+    "NAMES": [
+      "시뮬레이션 영역",
+      "시뮬레이션"
+    ],
+    "DESCRIPTION": "추가 막 (총 3종류). 각 막은 한 번만 입장할 수 있습니다."
+  },
+  {
+    "NAMES": [
+      "humanity"
+    ],
+    "DESCRIPTION": "If positive, you take 7% less damage from attack for each Humanity you have (At most 35%). NL If negative, you deal 10% more damage through Attack for each Humanity you have (At most 50%) NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative."
+  },
+  {
+    "NAMES": [
+      "concentric-Iteration"
+    ],
+    "DESCRIPTION": "Every time you Iterate, let the card with the same ID gain 1#bprimary Iterate count in the coming battles."
+  }
+]

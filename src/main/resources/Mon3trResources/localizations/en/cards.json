@@ -1,0 +1,612 @@
+{
+  "mon3tr:Strike": {
+    "NAME": "Strick",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "mon3tr:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block ."
+  },
+  "mon3tr:Core": {
+    "NAME": "Core",
+    "DESCRIPTION": "Gain !B! Block . NL Whenever this card mon3tr:Iterate , gain !M! mon3tr:Crystal ."
+  },
+  "mon3tr:Unstoppable": {
+    "NAME": "Unfinished",
+    "DESCRIPTION": "Deal !D! damage. NL Deal extra !M! damage for each number of card fewer than full in your hand."
+  },
+
+  "mon3tr:CrystalDiffusion": {
+    "NAME": "Crystal Diffuse",
+    "DESCRIPTION": "Deal !D! to random enemy 3 times. NL Apply !M! mon3tr:Crystal to all enemy attacked."
+  },
+  "mon3tr:RebuildFate": {
+    "NAME": "Reshape Fate",
+    "DESCRIPTION": " Deal !D! damage. NL Return !M! cards with highest mon3tr:Iterate count to your hand."
+  },
+  "mon3tr:PrepareMedicine": {
+    "NAME": "Medical Preparation",
+    "DESCRIPTION": "Gain 1 mon3tr:Humanity. NL Gain !M! Block in the next turn."
+  },
+  "mon3tr:Redirect": {
+    "NAME": "Relocate",
+    "DESCRIPTION": "Gain !B! Block . NL Choose a card in your discard pile and put it on the top your draw pile. Draw 1 card when you draw it."
+  },
+  "mon3tr:LullabyOfDeath": {
+    "NAME": "Prelude to the Fallen",
+    "DESCRIPTION": "Gain !B! Block . NL mon3tr:Iterate random card in your hand !M! times."
+  },
+  "mon3tr:StrategyLock": {
+    "NAME": "Target Lock",
+    "DESCRIPTION": "Deal !D! damage. NL This enemy will take extra !M! damage from your attack this turn."
+  },
+  "mon3tr:IntoTheMarrow": {
+    "NAME": "Into the Marrow",
+    "DESCRIPTION": "mon3tr:Disposable , Unupgradeable.  NL Choose one enemy and all enemies lose HP equals to !M! % of its max HP.",
+    "EXTENDED_DESCRIPTION": [
+      "(Lose !D! HP) NL "
+    ]
+  },
+  "mon3tr:Mesh": {
+    "NAME": "Mesh",
+    "DESCRIPTION": "Draw !M! cards. NL Discard the card you draw that have lower mon3tr:Iterate count."
+  },
+  "mon3tr:OrganizeSample": {
+    "NAME": "Tissue Sampling",
+    "DESCRIPTION": "Draw !M! cards. NL mon3tr:Transcript 1 card in your hand."
+  },
+  "mon3tr:CrackStrike": {
+    "NAME": "Rip Apart",
+    "DESCRIPTION": "Deal !D! to a random enemy 2 times. NL Lose 2 mon3tr:Humanity."
+  },
+  "mon3tr:WeaveBlock": {
+    "NAME": "Strategy: Circuitous Strike",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL When enter an mon3tr:Extra-Turn , return this to your hand.",
+    "EXTENDED_DESCRIPTION": [
+      "Strategy: Double Circuit",
+      "Deal !D! damage 2 times. NL When enter an mon3tr:Extra-Turn , return this to your hand.."
+    ]
+  },
+  "mon3tr:StrategyTree": {
+    "NAME": "Strategy: STP",
+    "DESCRIPTION": "Draw !M! card. NL Gain [E] in the next turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Strategy: Inverted Tree",
+      "Gain [E] . NL Draw extra !M! card in the next turn."
+    ]
+  },
+  "mon3tr:DustToDust": {
+    "NAME": "Dust to Dust",
+    "DESCRIPTION": " Exhaust . NL At the end of X turns, deal !M! X damage to all enemies X tiems."
+  },
+  "mon3tr:SharpGash": {
+    "NAME": "Severely Claw",
+    "DESCRIPTION": " mon3tr:Evolve 1: 0 cost Attack. NL Deal !D! damage. NL Deal extra !M! damage for each mon3tr:Iterate count."
+  },
+  "mon3tr:CrippleStrike": {
+    "NAME": "Disabling Strike",
+    "DESCRIPTION": " mon3tr:SP-Consumption (8) NL Deal !D! damage. NL Apply !M! Vulnerable .",
+    "EXTENDED_DESCRIPTION": [
+      "I need at lest",
+      "SP"
+    ]
+  },
+  "mon3tr:Calcite": {
+    "NAME": "Calcite",
+    "DESCRIPTION": " mon3tr:SP-Consumption ( !M! ) NL Gain !B! Block . NL Double the SP-Consumption and the Block of this card.",
+    "EXTENDED_DESCRIPTION": [
+      "I need at least",
+      "SP"
+    ]
+  },
+  "mon3tr:ShiningTogether": {
+    "NAME": "With Our Power Combine",
+    "DESCRIPTION": " mon3tr:Evolve !M! : first card in a turn. NL Deal !D! damage. NL When trigger *Evolve , increase this card and the source's damage by !M!."
+  },
+  "mon3tr:FadeAndGrow": {
+    "NAME": "Wane And Wax",
+    "DESCRIPTION": "Deal !D! damage. NL mon3tr:Iterate random card in your hand equals to unblocked damage dealt."
+  },
+  "mon3tr:EndingOfMemory": {
+    "NAME": "The End of Memory",
+    "DESCRIPTION": " Unplayable . NL If this card is on the *Far *Right of your hand at the end of turn, choose a card you have played this turn and play it.",
+    "UPGRADE_DESCRIPTION": " Unplayable . NL If this card is on the *Both *Sides of your hand at the end of turn, choose a card you have played this turn and play it."
+  },
+  "mon3tr:StructureGuidance": {
+    "NAME": "Structure Guidance",
+    "DESCRIPTION": "Trigger your *Metallicize . NL Every time this card gain 2 mon3tr:Iterate count, you gain 1 *Metallicize .",
+    "UPGRADE_DESCRIPTION": "Trigger your end turn effect. NL Every time this card gain 2 mon3tr:Iterate count, you gain 1 *Metallicize ."
+  },
+  "mon3tr:Subspace": {
+    "NAME": "Subspace",
+    "DESCRIPTION": "Apply !M! mon3tr:Crystal . NL When enter mon3tr:Extra-Turn , return this card to your hand."
+  },
+
+
+  "mon3tr:BattleFocus": {
+    "NAME": "Battle Concentrate",
+    "DESCRIPTION": "Deal !D! damage. NL Until the end of turn, every time you play Attack, lose 1 mon3tr:Humanity."
+  },
+  "mon3tr:ExistInNameOnly": {
+    "NAME": "Nothing to Shield",
+    "DESCRIPTION": "Deal !D! damage. NL Deal !D! damage again, if the unblocked damage dealt is unequal to the last time, deal agian."
+  },
+  "mon3tr:DensificationBody": {
+    "NAME": "Densification",
+    "DESCRIPTION": "Gain !B! Block . NL The mon3tr:Crystal you have will increase the block you gain from this card."
+  },
+  "mon3tr:NewLive": {
+    "NAME": "Reborn",
+    "DESCRIPTION": " Exhaust a card in your hand. NL Gain mon3tr:Humanity equals to its cost ."
+  },
+  "mon3tr:DeconstructToChaos": {
+    "NAME": "Deconstruct of Chaos",
+    "DESCRIPTION": "Increase the damage you deal from attack by !M! , for each number of card fewer than 5 in your hand."
+  },
+  "mon3tr:ProgressiveApproach": {
+    "NAME": "Progressive Style",
+    "DESCRIPTION": "When you play a card, draw a a card. Then increase the number of card you need to play by 2, until the end of this turn."
+  },
+  "mon3tr:IterationAcceleration": {
+    "NAME": "Iteration Acceleration",
+    "DESCRIPTION": "mon3tr:Iterate all of your cards by !M!."
+  },
+  "mon3tr:InverseQuantization": {
+    "NAME": "Inverse Quantization",
+    "DESCRIPTION": "Deal !D! damage 3 times. NL Remove at most !M! Strength from the target to you. "
+  },
+  "mon3tr:StrategyFocus": {
+    "NAME": "Strategy: Focus",
+    "DESCRIPTION": "Discard any number of cards. NL mon3tr:Iterate the rest of your hand that many.",
+    "UPGRADE_DESCRIPTION": "Discard any number of cards. NL mon3tr:Iterate the rest of your hand that many+1.",
+    "EXTENDED_DESCRIPTION": [
+      "Strategy: Recover",
+      "Discard any number of cards. NL Draw that many+ !M! ."
+    ]
+  },
+  "mon3tr:TimeInsight": {
+    "NAME": "Aged Insight",
+    "DESCRIPTION": "Draw !M! card. NL Each time this card gain 3 mon3tr:Iterate count, shuffle a *Years *Insight to your draw pile.",
+    "UPGRADE_DESCRIPTION": "Draw !M! card. NL Each time this card gain 3 mon3tr:Iterate count, shuffle a *Years *Insight+ to your draw pile"
+  },
+  "mon3tr:DimensionMiracle": {
+    "NAME": "Miracle Dimension",
+    "DESCRIPTION": "Gain [E] . NL Each time this card gain 3 mon3tr:Iterate count, shuffle a *Wide *Area *Miracle to your draw pile.",
+    "UPGRADE_DESCRIPTION": "Gain [E] . NL Each time this card gain 3 mon3tr:Iterate count, shuffle a *Wide *Area *Miracle+ to your draw pile."
+  },
+  "mon3tr:StrategyFollowUp": {
+    "NAME": "Strategy: Pursuit",
+    "DESCRIPTION": "Deal !D! damage to all enemies that attacked this turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Strategy: Ambush",
+      "Deal !D! damage to all enemies that unattacked this turn."
+    ]
+  },
+  "mon3tr:InDustOrBlood": {
+    "NAME": "In Dust or Blood",
+    "DESCRIPTION": "Deal !D! damage. NL For each 20% the enemy's HP less than its max HP, add an *Echo *Shard to your hand."
+  },
+  "mon3tr:CriticalPoint": {
+    "NAME": "Critical Point",
+    "DESCRIPTION": "Exhaust . NL Exhaust and mon3tr:Transcript at most !M! cards in your hand."
+  },
+  "mon3tr:InformationSkim": {
+    "NAME": "Information Skim",
+    "DESCRIPTION": "Exhaust . NL Alternately add totally X *Years *Insight and *Wide *Area *Miracle into yor hand.",
+    "UPGRADE_DESCRIPTION": "Exhaust . NL Alternately add totally X+1 *Years *Insight and *Wide *Area *Miracle into yor hand."
+  },
+  "mon3tr:TimeSand": {
+    "NAME": "Grit-Filled Time",
+    "DESCRIPTION": "Retain . NL Deal !D! damage !M! times. NL When Retained , increase its attack time by 1 and mon3tr:iterate count by 2."
+  },
+  "mon3tr:Resonance": {
+    "NAME": "Resonance",
+    "DESCRIPTION": "At the end of your turn, deal !M! damage to all enemies for each enemy in combat. When you enter mon3tr:Extra-Turn, increase 1 damage."
+  },
+  "mon3tr:MedicineShield": {
+    "NAME": "Medical Shield",
+    "DESCRIPTION": "Gain !M! Metallicize . NL Gain 1 Metallicize at the start of your turn."
+  },
+  "mon3tr:CanGetBack": {
+    "NAME": "Get Back",
+    "DESCRIPTION": "Lose !M! mon3tr:Humanity . NL If this card is in your hand at the end of your turn, gain !M! mon3tr:Humanity ."
+  },
+  "mon3tr:StarWeb": {
+    "NAME": "Start Net",
+    "DESCRIPTION": "Deal !D! damage. NL Play a random *Star *Net in your draw pile. NL When *drawn : add a copy of it to draw pile."
+  },
+  "mon3tr:ProtocolOfPsyche": {
+    "NAME": "Psychological Protocol",
+    "DESCRIPTION": "At the start of your turn, lose !M! [E] . NL Add !M! *Wide *Area *Miracle into your hand."
+  },
+  "mon3tr:HotShock": {
+    "NAME": "Heat Shock",
+    "DESCRIPTION": "Gain !B! Block . NL Lose [E] and mon3tr:Transcript this card. NL The effect will be triggered twice in mon3tr:Extra-Turn ."
+  },
+  "mon3tr:PolishClaws": {
+    "NAME": "Armor Stamp",
+    "DESCRIPTION": " Exhaust . NL mon3tr:Evolve 1: attack . NL For each mon3tr:Iterate count this card have, gain 1 Plated Armor . NL (At most gain !M! )",
+    "UPGRADE_DESCRIPTION": " Exhaust . NL mon3tr:Evolve 1: non-skill . NL For each mon3tr:Iterate count this card have, gain 1 Plated Armor . NL (At most gain 8)"
+  },
+  "mon3tr:IsolationClearance": {
+    "NAME": "Isolated Space",
+    "DESCRIPTION": "Gain !M! Strength and Dexterity until the end of your mon3tr:Extra-Turn ."
+  },
+  "mon3tr:IntenseCrystalCracking": {
+    "NAME": "Fierce Crystal Dehiscence",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL mon3tr:SP-Consumption (the difference between draw and discard pile): deal 1 extra time for each 3 card.",
+    "EXTENDED_DESCRIPTION": [
+      "I need at lest",
+      "SP"
+    ]
+  },
+  "mon3tr:CellActivation": {
+    "NAME": "Cell Activate",
+    "DESCRIPTION": "When removing your mon3tr:Crystal , retain 33% of it and gain !M! mon3tr:Crystal ."
+  },
+  "mon3tr:TurbulentFlow": {
+    "NAME": "Turbulent Flow",
+    "DESCRIPTION": "The first time when the number of your card in your hand is lower than 4 in a turn, add random !M!  Exhaust card in your hand,  they cost 1 less [E] ."
+  },
+  "mon3tr:AnotherHand": {
+    "NAME": "Extra Arm",
+    "DESCRIPTION": "Deal !D! damage. NL Choose !M! card from random 5 cards in your pile and return them to your hand."
+  },
+  "mon3tr:SorryForYou": {
+    "NAME": "\"Opps, I have gone too far\"",
+    "DESCRIPTION": "Deal !D! damage X times. NL If Fatal , gain [E] until reach the max.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage X+1 times. NL If Fatal , gain [E] until reach the max.",
+    "FLAVOR": "The operators of Medical Dpartment looking at Mon3tr on the battle field, guessing for whom her smile is."
+  },
+  "mon3tr:RuinAndCure": {
+    "NAME": "Ruin & Cure",
+    "DESCRIPTION": " Exhaust . NL Deal !D! damage. NL Heal HP equals to the unblocked damage."
+  },
+  "mon3tr:EndingOfCirculation": {
+    "NAME": "The End of Circulation",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !B! Block . NL The effect of damage and Block will trigger twice on this card."
+  },
+  "mon3tr:MakeNoAllowance": {
+    "NAME": "Make No Allowance",
+    "DESCRIPTION": "Exhaust . NL Let the target lose all Strength . NL When drawn, all entities gain !M! Strength ."
+  },
+  "mon3tr:FateReflow": {
+    "NAME": "Fate Blackflow",
+    "DESCRIPTION": " Exhaust . NL Choose a enemy. NL When enemy is attacked, let the target you chose lose 25% HP as the damage.",
+    "FLAVOR": "Card Image is to be made……"
+  },
+  "mon3tr:Hedge": {
+    "NAME": "不置可否",
+    "DESCRIPTION": "Exhaust . NL 将你当前的 格挡 翻倍. NL 抽到时所有单位均分 !M! Block .",
+    "FLAVOR": "已弃用"
+  },
+  "mon3tr:CoverMeInDebris": {
+    "NAME": "Cover in Shroud",
+    "DESCRIPTION": "Exhaust . NL Gain !M! mon3tr:Crystal . mon3tr:SP-Consumption (8):If have been Exhausted , right click to return it to your hand."
+  },
+  "mon3tr:CrystalEntity": {
+    "NAME": "Crystal Visualization",
+    "DESCRIPTION": "mon3tr:Concentric-Iteration . NL mon3tr:Evolve 1: Power .NL Every time this card gain mon3tr:Iterate count, deal !M! damage to all enemies."
+  },
+
+  "mon3tr:NamedMonster": {
+    "NAME": "Named As \"Monster\"",
+    "DESCRIPTION": "Gain !M! mon3tr:Humanity . NL Reset the effect of positive and negative mon3tr:Humanity to 10% and 15% separately."
+  },
+  "mon3tr:NoLongerSung": {
+    "NAME": "The No Longer Eulogized",
+    "DESCRIPTION": " mon3tr:Iterate 1: any card。 NL Deal !D! damage. NL For each mon3tr:Iterate count this card have, decrease the damage by !M! .",
+    "UPGRADE_DESCRIPTION": " mon3tr:Iterate 1: any card。 NL Deal !D! damage. NL For each mon3tr:Iterate count this card have, increase the damage by !M! .",
+    "FLAVOR": "Utawarerumono",
+    "EXTENDED_DESCRIPTION": [
+      "The Eulogized"
+    ]
+  },
+  "mon3tr:StrategyOverpressureLink": {
+    "NAME": "Strategy: Overpressure Connection",
+    "DESCRIPTION": "Retain. NL Right click this card to switch the *Strategy, and draw !M! card.",
+    "EXTENDED_DESCRIPTION": [
+      "Strategy: Subpressure Connection",
+      "Retain. NL If the hand size is unless than 3, right click this card to switch the *Strategy, and discard !M! cards."
+    ]
+  },
+  "mon3tr:CircularTwins": {
+    "NAME": "Circular Twins",
+    "DESCRIPTION": "Add a *The *One *From *The *Past into your hand. NL Add a *The *One *In *The *Present into your hand.",
+    "UPGRADE_DESCRIPTION": "Add a *The *One *From *The *Past into your hand. NL Add a *The *One *In *The *Present into your hand."
+  },
+  "mon3tr:ShatteredEcho": {
+    "NAME": "Shattered Echo",
+    "DESCRIPTION": "mon3tr:Evolve !M! : Status . NL Deal !D! damage. NL Remove the mon3tr:Iterate count of this card, play that many *Echo *Shard to it.",
+    "UPGRADE_DESCRIPTION": "mon3tr:Evolve !M! : Status . NL Deal !D! damage. NL Remove the mon3tr:Iterate count of this card, play that many *Echo *Shard+ to it."
+  },
+  "mon3tr:ChangesByDegree": {
+    "NAME": "Convergent Progress",
+    "DESCRIPTION": " Exhaust . NL Discard any number of cards. NL If the cost of this card are the same, mon3tr:Transcript them.",
+    "UPGRADE_DESCRIPTION": " Exhaust . NL Discard any number of cards. NL If the cost of this card are the same or different from each other, mon3tr:Transcript them.",
+    "EXTENDED_DESCRIPTION": [
+      "Double Helix Progress"
+    ]
+  },
+  "mon3tr:SelfMagnetism": {
+    "NAME": "Self-Magnetism",
+    "DESCRIPTION": "When you enter an mon3tr:Extra-Turn , you won't lose your Block .",
+    "UPGRADE_DESCRIPTION": " Innate . NL When you enter an mon3tr:Extra-Turn , you won't lose your Block ."
+  },
+  "mon3tr:DimensionalDeduction": {
+    "NAME": "Multidimensional Deduction",
+    "DESCRIPTION": "When you play a mon3tr:Strategy card , add a copy of the other form of this card with Ethereal amd Exhaust into your hand, which can not switch Strategy."
+  },
+  "mon3tr:BackTrack": {
+    "NAME": "Backtrack",
+    "DESCRIPTION": "Every time you play 4 attack or skill, return one of the card that have highest cost and haven't been Exhausted into your hand ."
+  },
+  "mon3tr:MutualExclusion": {
+    "NAME": "Incompatible Characteristics",
+    "DESCRIPTION": "Apply !M! mon3tr:Crystal . NL Apply !M! mon3tr:Disorder-Crystal ."
+  },
+  "mon3tr:ReverseHalfLife": {
+    "NAME": "Reverse Half-Life",
+    "DESCRIPTION": "Double the enemy's mon3tr:Crystal . NL Deal !D! damage."
+  },
+  "mon3tr:PastEndsFuture": {
+    "NAME": "The Future Ends With Past",
+    "DESCRIPTION": "Exhaust . NL Choose a card in your hand: NL At the start of your turn, return it to your hand.",
+    "UPGRADE_DESCRIPTION": "Retain , Exhaust . NL Choose a card in your hand: NL At the start of your turn, return it to your hand."
+  },
+  "mon3tr:EternityMissesPresent": {
+    "NAME": "The Eternity Bound By Instant",
+    "DESCRIPTION": "Exhaust . NL Choose a card in your hand: NL When it is mon3tr:Iterated , increase the mon3tr:Iterate count by extra 2.",
+    "UPGRADE_DESCRIPTION": "Retain , Exhaust . NL Choose a card in your hand: NL When it is mon3tr:Iterated , increase the mon3tr:Iterate count by extra 2."
+  },
+  "mon3tr:AssaultCommand":{
+    "NAME": "Raid Command",
+    "DESCRIPTION": "Exhaust . NL Gain !M! mon3tr:SP . NL At the end of the enemy's turn, you lose 20 HP ."
+  },
+  "mon3tr:UnbreakableRefactoring": {
+    "NAME": "Non-Damaging Restructuring",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL mon3tr:SP-Consumption (12): Right click this card in discard pile to return it to your hand and increase the damage by !M! ."
+  },
+  "mon3tr:MemoryCrystal": {
+    "NAME": "Memory Crystal",
+    "DESCRIPTION": "mon3tr:Disposable , Unupgradeable. NL Choose a card that you have played in this combat, and add an original copy of this card to your deck."
+  },
+  "mon3tr:NeverThere": {
+    "NAME": "Never Been Away",
+    "DESCRIPTION": "When you deal unblocked damage for every 3 times, equally allocate !M! mon3tr:Crystal to all entities."
+  },
+
+  "mon3tr:StrategyOverload": {
+    "NAME": "Strategy: Overload",
+    "DESCRIPTION": "Won't be count in your hand. NL Enter an mon3tr:Overload-Turn . NL Right click this card to switch the *Strategy .",
+    "EXTENDED_DESCRIPTION": [
+      "I need at least 40 SP"
+    ]
+  },
+  "mon3tr:StrategyMeltdown": {
+    "NAME": "Strategy: Meltdown",
+    "DESCRIPTION": "Won't be count in your hand. NL Enter a mon3tr:Meltdown-Turn . NL Right click this card to switch the *Strategy .",
+    "EXTENDED_DESCRIPTION": [
+      "I need at least 80 SP"
+    ]
+  },
+  "mon3tr:ClockInsight": {
+    "NAME": "Years Insight",
+    "DESCRIPTION": " Retain . Exhaust . NL Draw !M! cards. NL Increase the drawn cards' mon3tr:Iterate count by 2."
+  },
+  "mon3tr:SpaceMiracle": {
+    "NAME": "Wide Area Miracle",
+    "DESCRIPTION": " Retain . Exhaust . NL Gain [E] . NL Increase the mon3tr:Iterate count of the cards in your hand by 1 except for *Wide *Area *Miracle .",
+    "UPGRADE_DESCRIPTION": " Retain . Exhaust . NL Gain [E] [E] . NL Increase the mon3tr:Iterate count of the cards in your hand by 1 except for *Wide *Area *Miracle ."
+  },
+  "mon3tr:ThePastOne": {
+    "NAME": "The One From The Past",
+    "DESCRIPTION": " Ethereal . NL mon3tr:Evolve 2: *The *One *In *The *Present . NL Gain !B! Block . NL When Exhausted , for each mon3tr:Iterate count this card have, gain !M! Block."
+  },
+  "mon3tr:TheNowOne": {
+    "NAME": "The One In The Present",
+    "DESCRIPTION": " Ethereal . NL mon3tr:Evolve 2: *The *One *From *The *Past . NL Deal !D! damage. NL Whe Exhausted , for each mon3tr:Iterate count this card have, randomly deal !M! ."
+  },
+  "mon3tr:MemoryFragment": {
+    "NAME": "Echo Shard",
+    "DESCRIPTION": " Exhaust . NL Deal !D! damage. NL Apply !M! mon3tr:Crystal ."
+  },
+  "mon3tr:SelfFix": {
+    "NAME": "Self Repair",
+    "DESCRIPTION": "Summon a mon3tr:Reconstructed .",
+    "UPGRADE_DESCRIPTION": "Summon a mon3tr:Reconstructed . NL If it has already existed, mon3tr:Absorb the previous mon3tr:Reconstructed first."
+  },
+  "mon3tr:BlackSnow": {
+    "NAME": "Black Snow",
+    "DESCRIPTION": " Exhaust . NL When Exhausted , the *\"Pursuer\" will act at once."
+  },
+  "mon3tr:CageOfPerson": {
+    "NAME": "Cage Of Personality",
+    "DESCRIPTION": "When this card is in hand, it prevents adjacent !M! cards from being played."
+  },
+
+  "mon3tr:RelicPreviewCard": {
+    "NAME": "Relic Name",
+    "DESCRIPTION": "Relic description",
+    "EXTENDED_DESCRIPTION":[
+      "The effect of this relic",
+      "The Flavor of this relic"
+    ]
+  },
+  "mon3tr:RebuildRelic": {
+    "NAME": "Relic Reconstruct",
+    "DESCRIPTION": "Exhaust !M! *Reconstruct *Crystal and remove a *non-boss relic to choose 1 of 3 random relics to obtain."
+  },
+  "mon3tr:RebuildCard": {
+    "NAME": "Card Reconstruct",
+    "DESCRIPTION": "Exhaust !M! *Reconstruct *Crystal and remove a non-curse card to choose 1 of 3 random cards to add to your deck."
+  },
+  "mon3tr:RebuildTechnic": {
+    "NAME": "Charge",
+    "DESCRIPTION": "Exhaust !M! *Reconstruct *Crystal to increase the initial mon3tr:SP by 8 in every combat. NL Now: !D! / !B!"
+  },
+  "mon3tr:RebuildProsts": {
+    "NAME": "Construct the Reconstructed",
+    "DESCRIPTION": "Exhaust !M! *Reconstructed *Crystal to add a *Self *Repair into your deck."
+  },
+  "mon3tr:RebuildReturn": {
+    "NAME": "Return",
+    "DESCRIPTION": "Return"
+  },
+  "mon3tr:MALMuscleAmyotrophy": {
+    "NAME": "MAL:Muscle Amyotrophy",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When this card take effect or lose effect, lose 1 Strength .",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALEmotionDisorder": {
+    "NAME": "MAL:Emotion Disorder",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When attack, deal damage as 50% as this attack to all enemies.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALNeuralRegression": {
+    "NAME": "MAL:Neural Regression",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When this card take effect or lose effect, gain 1 Weak and Vulnerable .",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALImmuneDisorder": {
+    "NAME": "MAL:Immune Disorder",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When gain Block or HP , decrease it by 50%.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENMuscleStrengthen": {
+    "NAME": "BEN:Muscle Strengthen",
+    "DESCRIPTION": "mon3tr:Express :yourself. NL When take effect, gian 1 Dexterity . NL When lose effect gain 1 Strength .",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENEmotionStable": {
+    "NAME": "BEN:Emotion Stable",
+    "DESCRIPTION": "mon3tr:Express :yourself. NL When attacked, gain Block as 30% as the damage.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENNeuralEvolution": {
+    "NAME": "BEN:Neural Evolution",
+    "DESCRIPTION": "mon3tr:Express :yourself. NL When this card take effect or lose effect, lose 1 Weak , Vulnerable and Fragile .",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENImmuneDevelop": {
+    "NAME": "BEN:Immune Develop",
+    "DESCRIPTION": "mon3tr:Express :yourself. NL When gain Block or HP , increase it by 25%.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALIncapacitated": {
+    "NAME": "MAL:Incapacitated",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When this card take effect or lose effect, lose 2 Strength .",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALInjudicious": {
+    "NAME": "MAL:Injudicious",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When attack, deal damage as 100% as this attack to all enemies.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALUnconcentrated": {
+    "NAME": "MAL:Unconcentrated",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When this card take effect or lose effect, gain 2 Weak and Vulnerable .",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALCureless": {
+    "NAME": "MAL:Cureless",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When gain Block or HP, decrease it by 80%.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENCapacitated": {
+    "NAME": "BEN:Capacitated",
+    "DESCRIPTION": "mon3tr:Express :yourself. NL When take effect, gian 2 Dexterity . NL When lose effect, gain 2 Strength .",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENJudicious": {
+    "NAME": "BEN:Judicious",
+    "DESCRIPTION": "mon3tr:Express :yourself. NL When attacked, gain as 50% as this attack .",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENConcentrated": {
+    "NAME": "BEN:Concentrated",
+    "DESCRIPTION": "mon3tr:Express :yourself. NL When this card take effect or lose effect, lose 2 Weak , Vulnerable and Fragile .",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENCurable": {
+    "NAME": "BEN:Curable",
+    "DESCRIPTION": "mon3tr:Express :yourself. NL When gain Block or HP, increase it by 40%.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:SYSDrugResistance": {
+    "NAME": "SYS:Drug Resistance",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When take effect, shuffle the *Express-card this card replace to your draw pile. NL When lose effect, shuffled into discard pile.",
+    "FLAVOR": "Card Image is to be made……"
+  },
+  "mon3tr:SYSLupusErythematosus": {
+    "NAME": "SYS:Lupus Erythematosus",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When attacked, gain 1 random debuff.",
+    "FLAVOR": "Card Image is to be made……"
+  },
+  "mon3tr:SYSLCystineRestore": {
+    "NAME": "SYS:Crystine Restore",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When this card take effect or lose effect, trun 10% HP into mon3tr:Crystal .",
+    "FLAVOR": "Card Image is to be made……"
+  },
+  "mon3tr:SYSReperfusionInjury": {
+    "NAME": "SYS:Reperfusion Injury",
+    "DESCRIPTION": "mon3tr:Express :enemy. NL When take effect, remove all debuff. When lose effect, gian double as that many.",
+    "FLAVOR": "Card Image is to be made……"
+  },
+  "mon3tr:PersonTrue": {
+    "NAME": "\"Human\"",
+    "DESCRIPTION": "Set your mon3tr:Humanity as positive. NL Gain 1 mon3tr:Humanity ."
+  },
+  "mon3tr:PersonFalse": {
+    "NAME": "\"Beast\"",
+    "DESCRIPTION": "Set your mon3tr:Humanity as negative. NL Lose 1 mon3tr:Humanity ."
+  }
+}

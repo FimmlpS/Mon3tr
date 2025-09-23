@@ -1,0 +1,50 @@
+{
+  "mon3tr:Prosts": {
+    "NAME": "重构体",
+    "MOVES": [],
+    "DIALOG": [
+      "重构体",
+      "重构体会为你承受 #y非攻击 伤害，在场时使所有敌人受到的伤害增加 #b1 点。进入 #r熔毁回合 时，会自动 #y吸收 并使你恢复 #b5 点生命。",
+      "吸收",
+      "获得等同 #y重构体 生命值的格挡，然后将其移除。"
+    ]
+  },
+  "mon3tr:Empgrd": {
+    "NAME": "“皇帝的利刃”，追猎者",
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
+  },
+  "mon3tr:Dsbish": {
+    "NAME": "玛利图斯，“海嗣”",
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
+  },
+  "mon3tr:Dsbasi": {
+    "NAME": "异光体掠食者",
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
+  },
+  "mon3tr:Smephi": {
+    "NAME": "梅菲斯特，“歌者”",
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
+  },
+  "mon3tr:Rager": {
+    "NAME": "狂暴宿主组长"
+  },
+  "mon3tr:Rageth": {
+    "NAME": "狂暴宿主掷骨手"
+  }
+}

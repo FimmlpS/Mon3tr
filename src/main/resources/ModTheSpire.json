@@ -1,0 +1,14 @@
+{
+  "modid": "Mon3tr_FimmlpS",
+  "name": "Mon3tr",
+  "author_list": [
+    "FimmlpS"
+  ],
+  "description": "她并非一个全知全能的生命。她却要求自己去照料全部的世界。她的使命从未公平。",
+  "dependencies": [
+    "basemod"
+  ],
+  "version": "0.8.0",
+  "sts_version": "12-22-2020",
+  "mts_version": "3.23.2"
+}

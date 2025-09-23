@@ -1,0 +1,47 @@
+{
+  "mon3tr:Prosts": {
+    "NAME": "The Reconstructed",
+    "MOVES": [],
+    "DIALOG": [
+      "The Reconstructed",
+      "The Recnstructed will take the #ynon-attack damage that you are to take, and increase the damage taken by enemies by #b1 . When enter a #rMeltdown-turn , you will #yabsorb it and heal #b5 HP.",
+      "Absorb",
+      "Gain Bolck equals to the #Reconsturcted's HP, then remove it."
+    ]
+  },
+  "mon3tr:Empgrd": {
+    "NAME": "\"Emperor's Blade\", Pursuer",
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
+  },
+  "mon3tr:Dsbish": {
+    "NAME": "Mártus, \"Seaborn\"",
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
+  },
+  "mon3tr:Dsbasi": {
+    "NAME": "Allotropic Predator",
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
+  },
+  "mon3tr:Smephi": {
+    "NAME": "Mephisto, \"The Singer\"",
+    "MOVES": [],
+    "DIALOG": []
+  },
+  "mon3tr:Rager": {
+    "NAME": "Enraged Possessed Leader"
+  },
+  "mon3tr:Rageth": {
+    "NAME": "Enraged Possessed Bonethrower"
+  }
+}

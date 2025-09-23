@@ -1,0 +1,222 @@
+{
+  "mon3tr:OverloadPower": {
+    "NAME": "과부하",
+    "DESCRIPTIONS": [
+      "#rSP #r회복량이 #r절반으로 #r감소합니다. NL 이번 턴 시작 시, 카드를 #b",
+      " 장 덜 뽑고, SP를 40 소모합니다."
+    ]
+  },
+  "mon3tr:MeltdownPower": {
+    "NAME": "융해",
+    "DESCRIPTIONS": [
+      "카드를 사용할 때, 현재 SP가 20 이상이라면 일시적으로 #y힘과 #y민첩을 1씩 얻고 카드를 1 장 뽑으며, 에너지를 1 회복합니다. 이후 SP를 #b20 소모합니다."
+    ]
+  },
+  "mon3tr:FocusPower": {
+    "NAME": "전투 집중",
+    "DESCRIPTIONS": [
+      "턴이 끝날 때까지 공격 카드만 사용할 수 있습니다. NL 공격 피해량이 #b",
+      " % 증가합니다.",
+      "공격에 집중해야 해!"
+    ]
+  },
+  "mon3tr:MonsterPower": {
+    "NAME": "\"Monster\"",
+    "DESCRIPTIONS": [
+      "모든 카드는 #y반복 횟수만큼, 피해량과 방어도가 #b",
+      " 증가합니다. 증가량은 #b",
+      " 배를 초과할 수 없습니다.",
+      "正负数量的 #y人性 效果分别变为15％和10％。"
+    ]
+  },
+  "mon3tr:DeconstructionPower": {
+    "NAME": "혼돈 해체",
+    "DESCRIPTIONS": [
+      "손에 있는 카드가 5장 미만일 때마다, 공격 카드의 피해량이 #b",
+      " 증가합니다."
+    ]
+  },
+  "mon3tr:ProgressiveApproachPower": {
+    "NAME": "단계적 접근 방식",
+    "DESCRIPTIONS": [
+      "카드를 #b",
+      " 장 사용하면, 카드를 #b",
+      " 장 뽑습니다. 턴을 종료할 때까지 카드를 뽑기 위해 필요한 카드는 2 장씩 증가합니다."
+    ]
+  },
+  "mon3tr:LockPower": {
+    "NAME": "Locked",
+    "DESCRIPTIONS": [
+      "이번 턴에 공격 받을 때마다, 추가 피해를 #b",
+      " 받습니다."
+    ]
+  },
+  "mon3tr:ResonancePower": {
+    "NAME": "공명",
+    "DESCRIPTIONS": [
+      "턴 종료 시, 적 한 명당 적 전체에게 피해를 #b",
+      " 줍니다. NL #y엑스트라 #y턴에 진입할 때마다, 피해량이 #b",
+      " 증가합니다."
+    ]
+  },
+  "mon3tr:SelfMagnetismPower": {
+    "NAME": "자기력",
+    "DESCRIPTIONS": [
+      "#y엑스트라 #y턴에 진입해도, 방어도를 잃지 않습니다."
+    ]
+  },
+  "mon3tr:MedicineShieldPower": {
+    "NAME": "자가증강 의료방패",
+    "DESCRIPTIONS": [
+      "턴 시작 시 #b",
+      " #y금속화를 얻습니다."
+    ]
+  },
+  "mon3tr:DimensionalDeductionPower": {
+    "NAME": "다차원 추론",
+    "DESCRIPTIONS": [
+      "#y책략 #y카드를 사용할 때, 해당 카드의 다른 형태를 복사하여 손에 가져옵니다. 복사된 카드는 허무 및 소멸을 가지며, 책략을 전환할 수 없습니다."
+    ]
+  },
+  "mon3tr:BackTrackPower": {
+    "NAME": "역추적",
+    "DESCRIPTIONS": [
+      "공격 및 스킬 카드를 #b4 장 사용할 때마다, 그중 #y소멸되지 않았으며 비용이 가장 높은 카드를 가져옵니다. NL 현재 사용된 카드:"
+    ]
+  },
+  "mon3tr:ToDustPower": {
+    "NAME": "먼지로 돌아가다",
+    "DESCRIPTIONS": [
+      "#b%1$s 턴 후, 적 전체에게 피해를 #b%2$s 만큼 #b%3$s 번 줍니다.",
+      "이번 턴 종료 시, 적 전체에게 피해를 #b%1$s 만큼 #b%2$s 번 줍니다."
+    ]
+  },
+  "mon3tr:ProtocolOfPsychePower": {
+    "NAME": "심리 프로토콜",
+    "DESCRIPTIONS": [
+      "턴 시작 시, [G] 를 #b",
+      " 잃고, 광역 기적을 #b",
+      " 장 얻습니다."
+    ]
+  },
+  "mon3tr:CellActivationPower": {
+    "NAME": "세포 활성화",
+    "DESCRIPTIONS": [
+      "#y결정을 제거할 때, 그중 33%를 유지하고 결정을 #b",
+      " 얻습니다."
+    ]
+  },
+  "mon3tr:TurbulentFlowPower": {
+    "NAME": "난류화",
+    "DESCRIPTIONS": [
+      "손에 있는 카드의 수가 #b4 장 미만일 시, 한 턴마다 한 번 무작위 소멸 카드를 #b",
+      " 장 얻고, 얻은 카드의 비용이 #b1 [E] 감소합니다."
+    ]
+  },
+  "mon3tr:NeverTherePower": {
+    "NAME": "한 번도 떠난 적 없어",
+    "DESCRIPTIONS": [
+      "#y공격으로 막히지 않은 피해를 #b",
+      " 번 줄 때마다, 모두가 #y결정을 #b ",
+      " 균등 분배받습니다."
+    ]
+  },
+  "mon3tr:CrystalOverloadPower": {
+    "NAME": "결정 과부하",
+    "DESCRIPTIONS": [
+      "#y적의 턴이 끝나면, 체력을 #b",
+      " 잃습니다."
+    ]
+  },
+  "mon3tr:CrystalPower": {
+    "NAME": "결정",
+    "DESCRIPTIONS": [
+      "공격 받을 시, 보유한 결정만큼 적 전체에게 피해를 #b",
+      " 입히고, 결정을 #b",
+      " (보유한 #y결정의 20%만큼, 소숫점 이하 올림) 만큼 없앱니다. NL 턴 시작 시, 모든 #y결정을 없애고 #y",
+      "는 방어도를 #b",
+      " 얻습니다."
+    ]
+  },
+  "mon3tr:DiscordCrystalPower": {
+    "NAME": "무질서 결정",
+    "DESCRIPTIONS": [
+      "#r제거되지 #r않습니다. NL 이로운 효과를 얻거나 해로운 효과를 잃을 때, #b",
+      "  #y결정을 얻습니다."
+    ]
+  },
+  "mon3tr:FateReflowPower": {
+    "NAME": "운명 역류",
+    "DESCRIPTIONS": [
+      "어떤 적이라도 막히지 않은 공격 피해를 입으면, 피해량의 #b",
+      "% 만큼 체력을 잃습니다."
+    ]
+  },
+
+  "mon3tr:CountryPower": {
+    "NAME": "국가",
+    "DESCRIPTIONS": [
+      "턴 종료 시, #y흑설 #b",
+      " 장을 버린 카드 더미에 넣습니다. NL NL 소멸되지 않은 #y흑설 하나당 사냥꾼의 공격 피해가 #b2 증가하며, 받는 모든 피해가 #b1 감소합니다."
+    ]
+  },
+  "mon3tr:AltCountryPower": {
+    "NAME": "역 붕괴",
+    "DESCRIPTIONS": [
+      "사냥꾼이 죽을 때, 모든 #y흑설이 소멸되지 않았다면, #y흑설을 한 장 소멸시키고 대신 체력을 #b",
+      " 회복합니다."
+    ]
+  },
+  "mon3tr:MoreCollapsePower": {
+    "NAME": "단계적 붕괴",
+    "DESCRIPTIONS": [
+      "사냥꾼이 죽으면 다음 턴에 다시 태어나고, 소멸되지 않은 #y흑설 하나당 최대 체력이 증가합니다."
+    ]
+  },
+  "mon3tr:ScarePower": {
+    "NAME": "공포",
+    "DESCRIPTIONS": [
+      "다음에 뽑는 카드의 비용을 #b",
+      " 증가시킵니다."
+    ]
+  },
+  "mon3tr:DetectPower": {
+    "NAME": "진화 유도",
+    "DESCRIPTIONS": [
+      "다른 적들이 받는 피해의 #b80%를 대신 받습니다. 자신의 #y천하무적이 0이 되면, 손에 #y인성의 #y죄수를 1장 추가하고, 이 효과를 해당 턴 종료 시까지 무효화합니다."
+    ]
+  },
+  "mon3tr:DustReleasePower": {
+    "NAME": "독 먼지",
+    "DESCRIPTIONS": [
+      "최대 체력의 20%를 잃을 때마다 20 방어도를 얻고, 별도의 #y중독을 2 얻습니다.",
+      "최대 체력의 20%를 잃을 때마다 30 방어도를 얻고, 별도의 #y중독을 3 얻습니다.",
+      "독 먼지+",
+      "최대 체력의 20%를 잃을 때마다 20 방어도를 얻고, 별도의 #y중독+을 2 얻습니다.",
+      "최대 체력의 20%를 잃을 때마다 20 방어도를 얻고, 별도의 #y중독+을 3 얻습니다."
+    ]
+  },
+  "mon3tr:ToxicPower": {
+    "NAME": "중독",
+    "DESCRIPTIONS": [
+      "상대가 방어도를 얻을 때마다, 방어도를 1 잃게 하고, 자신의 다음 공격의 피해량을 #b1 증가시킵니다.",
+      "중독+",
+      "상대가 방어도를 얻을 때마다, 방어도를 2 잃게 하고, 자신의 다음 공격의 피해량을 #b1 증가시킵니다."
+    ]
+  },
+  "mon3tr:SleepPower": {
+    "NAME": "휴면 상태",
+    "DESCRIPTIONS": [
+      "처음으로 죽을 때, 최대 체력을 25% 회복하고, #y불가침을 3 얻으며 #b특수 #b적을 소환합니다. #y불가침 효과가 끝나거나 #r혹은 모든 #b특수 #b적이 사망하기 전까지, 자신과 특수 적은 최대 체력의 25%만큼 #y재생을 얻습니다."
+    ]
+  },
+  "mon3tr:LiveBloodPower":{
+    "NAME": "죽어가는 자의 피",
+    "DESCRIPTIONS": [
+      "공격 시, 최대 체력의 10%를 잃습니다.",
+      "공격 시, 최대 체력의 10%를 잃고, #b힘을 2 얻습니다.",
+      "공격 시, 최대 체력의 15%를 잃고, 최대 체력의 5% 만큼 방어도를 얻습니다.",
+      "공격 시, 최대 체력의 15%를 잃고, 최대 체력의 5% 만큼 방어도를 얻으며, #b힘을 2 얻습니다."
+    ]
+  }
+}

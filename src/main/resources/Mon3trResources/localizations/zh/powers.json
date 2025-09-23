@@ -1,0 +1,233 @@
+{
+  "mon3tr:OverloadPower": {
+    "NAME": "超负荷",
+    "DESCRIPTIONS": [
+      "#r技力回复减半。 NL 这一回合少抽 #b",
+      " 张牌，然后消耗 #b40 点技力。"
+    ]
+  },
+  "mon3tr:MeltdownPower": {
+    "NAME": "熔毁",
+    "DESCRIPTIONS": [
+      "你打出牌后若技力不低于20：获得1点临时 #y力量 和 #y敏捷 ，抽1张牌并回复1点能量，然后消耗 #b20 点技力。"
+    ]
+  },
+  "mon3tr:FocusPower": {
+    "NAME": "战斗集中",
+    "DESCRIPTIONS": [
+      "直到回合结束，你每打出一张攻击牌就失去 #b",
+      " 层 #y人性 。",
+      "我必须专注攻击！"
+    ]
+  },
+  "mon3tr:MonsterPower": {
+    "NAME": "“怪物”",
+    "DESCRIPTIONS": [
+      "你的牌每 #y迭代 1，你从中获得的格挡或造成的伤害提升 #b",
+      " 点，提升量不超过原本的 #b",
+      " 倍。",
+      "正负数量的 #y人性 效果分别变为15％和10％。"
+    ]
+  },
+  "mon3tr:DeconstructionPower": {
+    "NAME": "解构混沌",
+    "DESCRIPTIONS": [
+      "你的手牌数每与5相差1，你从卡牌造成的伤害提升 #b",
+      " 点。"
+    ]
+  },
+  "mon3tr:ProgressiveApproachPower": {
+    "NAME": "递进式",
+    "DESCRIPTIONS": [
+      "再打出 #b",
+      " 张牌，抽 #b",
+      " 张牌，然后直到回合结束，所需出牌数+2。"
+    ]
+  },
+  "mon3tr:LockPower": {
+    "NAME": "锁定",
+    "DESCRIPTIONS": [
+      "直到回合结束，受到的 #y攻击 后，额外受到一次伤害为 #b",
+      " 的攻击。"
+    ]
+  },
+  "mon3tr:ResonancePower": {
+    "NAME": "共振",
+    "DESCRIPTIONS": [
+      "在你的回合结束时每有一名敌人，对所有敌人造成 #b",
+      " 点伤害。 NL 进入 #y额外回合 时，提升 #b",
+      " 层效果。"
+    ]
+  },
+  "mon3tr:SelfMagnetismPower": {
+    "NAME": "自磁",
+    "DESCRIPTIONS": [
+      "进入 #y额外回合 时，你不再失去格挡。"
+    ]
+  },
+  "mon3tr:MedicineShieldPower": {
+    "NAME": "自增型医疗护盾",
+    "DESCRIPTIONS": [
+      "在你的回合开始时，获得 #b",
+      " 层 #y金属化 。"
+    ]
+  },
+  "mon3tr:DimensionalDeductionPower": {
+    "NAME": "多维度演绎",
+    "DESCRIPTIONS": [
+      "你打出 #y策略牌 时，将其另一形态复制到手中。该复制有虚无和消耗属性，且不能切换策略。"
+    ]
+  },
+  "mon3tr:BackTrackPower": {
+    "NAME": "回溯",
+    "DESCRIPTIONS": [
+      "你每打出 #b4 张攻击或技能牌，将其中耗能最高的一张未 #y消耗 牌放回手中。 NL 目前记录："
+    ]
+  },
+  "mon3tr:ToDustPower": {
+    "NAME": "归尘",
+    "DESCRIPTIONS": [
+      "在 #b%1$s 回合结束后，对所有敌人造成 #b%2$s 伤害 #b%3$s 次。",
+      "在本回合结束时，对所有敌人造成 #b%1$s 伤害 #b%2$s 次。"
+    ]
+  },
+  "mon3tr:ProtocolOfPsychePower": {
+    "NAME": "心灵规约",
+    "DESCRIPTIONS": [
+      "在你回合开始时失去 #b",
+      " [G] ，将 #b",
+      " 张广域奇迹放入手中。"
+    ]
+  },
+  "mon3tr:CellActivationPower": {
+    "NAME": "细胞活化",
+    "DESCRIPTIONS": [
+      "在你回合开始移除 #y晶核 时，保留33％层数，并再获得 #b",
+      " 层晶核。"
+    ]
+  },
+  "mon3tr:TurbulentFlowPower": {
+    "NAME": "紊流化",
+    "DESCRIPTIONS": [
+      "手牌数每回合首次低于 #b4 张时，将 #b",
+      " 张 #y消耗 的随机牌放入手中，使其耗能-1。"
+    ]
+  },
+  "mon3tr:NeverTherePower": {
+    "NAME": "从未离去",
+    "DESCRIPTIONS": [
+      "你再造成 #b",
+      " 次未格挡的 #y攻击 伤害，所有单位均分 #b",
+      " 层 #y晶核 。"
+    ]
+  },
+  "mon3tr:CrystalOverloadPower": {
+    "NAME": "晶核过载",
+    "DESCRIPTIONS": [
+      "在 #r敌方 回合结束时，你失去 #b",
+      " 点生命。"
+    ]
+  },
+  "mon3tr:CrystalPower": {
+    "NAME": "晶核",
+    "DESCRIPTIONS": [
+      "受到攻击后，对所有敌人造成 #b",
+      " 点伤害，然后减少 #b",
+      " 层效果（总层数的20％，向上取整）。 NL 回合开始时，移除 #y晶核 并使 #y",
+      " 获得 #b",
+      " 点格挡。"
+    ]
+  },
+  "mon3tr:DiscordCrystalPower": {
+    "NAME": "失序晶核",
+    "DESCRIPTIONS": [
+      "#r不可移除 。 NL 当获得正面效果或移除负面效果时，获得 #b",
+      " 层 #y晶核 。"
+    ]
+  },
+  "mon3tr:FateReflowPower": {
+    "NAME": "命运回流",
+    "DESCRIPTIONS": [
+      "每当有敌人受到伤害时，其失去相当于伤害量 #b",
+      "% 的生命。"
+    ]
+  },
+
+  "mon3tr:CountryPower": {
+    "NAME": "国度",
+    "DESCRIPTIONS": [
+      "回合结束时，向弃牌堆中放入 #b",
+      " 张 #y黑雪 。 NL NL 每张未被消耗的 #y黑雪 会提升追猎者2点攻击伤害，且当其失去生命时降低1点失去量。"
+    ]
+  },
+  "mon3tr:AltCountryPower": {
+    "NAME": "逆向坍缩",
+    "DESCRIPTIONS": [
+      "受到致命伤害时，如果有未消耗的 #y黑雪 ，消耗其中一张并恢复至 #b",
+      " 点生命。"
+    ]
+  },
+  "mon3tr:MoreCollapsePower": {
+    "NAME": "递进坍缩",
+    "DESCRIPTIONS": [
+      "死亡后将进行重生，每张未被消耗的 #y黑雪 会提升自身的最大生命。"
+    ]
+  },
+  "mon3tr:ScarePower": {
+    "NAME": "恐惧",
+    "DESCRIPTIONS": [
+      "使抽到的下一张牌增加 #b",
+      " 点耗能。"
+    ]
+  },
+  "mon3tr:DetectPower": {
+    "NAME": "引导演化",
+    "DESCRIPTIONS": [
+      "承受其他敌人受到伤害的80％，自身 #y坚不可摧 变为0时向手牌放入1张 #y人性的囚笼 ，并令此效果失效至回合结束。"
+    ]
+  },
+  "mon3tr:DustReleasePower": {
+    "NAME": "粉尘释放",
+    "DESCRIPTIONS": [
+      "每失去20％生命，立即获得20点格挡，并获得独立的持续2回合的 #y毒性 。",
+      "每失去20％生命，立即获得30点格挡，并获得独立的持续3回合的 #y毒性 。",
+      "粉尘释放+",
+      "每失去20％生命，立即获得20点格挡，并获得独立的持续2回合的 #y毒性+ 。",
+      "每失去20％生命，立即获得30点格挡，并获得独立的持续3回合的 #y毒性+ 。"
+    ]
+  },
+  "mon3tr:ToxicPower": {
+    "NAME": "毒性",
+    "DESCRIPTIONS": [
+      "每当对方获得格挡，使其失去1点格挡，并使自身下一次攻击提升 #b1 点伤害。",
+      "毒性+",
+      "每当对方获得格挡，使其失去2点格挡，并使自身下一次攻击提升 #b1 点伤害。"
+    ]
+  },
+  "mon3tr:SleepPower": {
+    "NAME": "休眠",
+    "DESCRIPTIONS": [
+      "死亡后立即恢复至25％生命，获得3层 #y无实体 并召唤 #b特殊敌人 ，在无实体耗尽 #r或 特殊敌人死亡前，自身与特殊敌人获得最大生命25％的 #y再生 。"
+    ]
+  },
+  "mon3tr:LiveBloodPower":{
+    "NAME": "终死者之血",
+    "DESCRIPTIONS": [
+      "每次攻击后，失去最大生命10％的生命。",
+      "每次攻击后，失去最大生命10％的生命，并获得 #b2 点力量。",
+      "每次攻击后，失去最大生命15％的生命，获得最大生命5％的格挡。",
+      "每次攻击后，失去最大生命15％的生命，获得最大生命5％的格挡，并获得 #b2 点力量。"
+    ]
+  },
+  "mon3tr:PersonalityPower": {
+    "NAME": "人性",
+    "DESCRIPTIONS": [
+      "你受到的攻击降低 #b",
+      "你造成的攻击提升 #b",
+      "％ （不超过35％）。 NL 额外回合开始时，你可以设置人性的正负。",
+      "％ （不超过50％）。 NL 额外回合开始时，你可以设置人性的正负。",
+      "％ （不超过50％）。 NL 额外回合开始时，你可以设置人性的正负。",
+      "％ （不超过75％）。 NL 额外回合开始时，你可以设置人性的正负。"
+    ]
+  }
+}

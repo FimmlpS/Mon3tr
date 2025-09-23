@@ -1,0 +1,47 @@
+{
+  "mon3tr:Prosts": {
+    "NAME": "재구성체",
+    "MOVES": [],
+    "DIALOG": [
+      "재구성체",
+      " #y비공격 #y피해를 대신 받으며, 적이 받는 모든 피해를 #b1 증가시킵니다. #r멜트다운 #r턴에 진입하면, #y흡수한 후 체력을 #b5 회복합니다.",
+      "흡수",
+      " #y재구성체의 체력만큼 방어도를 얻고, #y재구성체를 없앱니다."
+    ]
+  },
+  "mon3tr:Empgrd": {
+    "NAME": "\"황제의 칼날\", 사냥꾼",
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
+  },
+  "mon3tr:Dsbish": {
+    "NAME": "마르투스, \"시본\"",
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
+  },
+  "mon3tr:Dsbasi": {
+    "NAME": "이형의 포식자",
+    "MOVES": [
+
+    ],
+    "DIALOG": [
+    ]
+  },
+  "mon3tr:Smephi": {
+    "NAME": "메피스토, \"노래하는 자\"",
+    "MOVES": [],
+    "DIALOG": []
+  },
+  "mon3tr:Rager": {
+    "NAME": "폭주한 숙주 리더"
+  },
+  "mon3tr:Rageth": {
+    "NAME": "폭주한 숙주 투척병 리더"
+  }
+}

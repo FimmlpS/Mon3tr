@@ -1,0 +1,128 @@
+{
+  "mon3tr:Tags": {
+    "TEXT": [
+      "mon3tr:Iterate",
+      "mon3tr:Evolve X(criteria card)",
+      "mon3tr:Absorb",
+      "mon3tr:Reconstructed"
+    ]
+  },
+  "mon3tr:Actions": {
+    "TEXT": [
+      "Deal additional damage for ",
+      " times",
+      "Discard",
+      "Transcript",
+      "Discard and Transcript",
+      "Exhaust and Transcript",
+      "Marked as [The Future Ends With Past]",
+      "Marked as [The Eternity Bound By Instant]",
+      "Choose ",
+      " card to return to your hand",
+      "My SP is less than ",
+      " so I can't play this card",
+      "The enemy are still in action, just wait a minute"
+    ],
+    "EXTRA_TEXT": [
+      "Choose a card to play",
+      "Choose a card to add a copy of it to your deck"
+    ]
+  },
+  "mon3tr:Cards": {
+    "TEXT": [
+      "M3-Express card",
+      " NL right click this card to switch *Strategy 。"
+    ]
+  },
+  "mon3tr:Technic": {
+    "TEXT": [
+      "SP",
+      "Some of your cards need you to consume SP to play them. When your cards' #yIterate count increased, you gain that many SP. NL #yBesides : At the end of your turn, you can gian 2 SP for each energy you left unused. NL NL Now: #b",
+      " /"
+    ]
+  },
+  "mon3tr:Modifiers": {
+    "TEXT": [
+      " NL mon3tr:The Future Ends With Past",
+      " NL mon3tr:The Eternity Bound By Instant",
+      " NL mon3tr:Relocated"
+    ]
+  },
+  "mon3tr:CharSelects": {
+    "TEXT": [
+      "Choose a Background"
+    ],
+    "EXTRA_TEXT": [
+      "Babel-003",
+      "Rhodes-003"
+    ]
+  },
+  "mon3tr:ModeSelects": {
+    "TEXT": [
+      "Overload",
+      "Lack S.P"
+    ],
+    "EXTRA_TEXT": [
+      "#rThe #roption #rwill #rincrease #rthe #rdifficulty. NL At the next turn after your Extra Turn, you draw 1 less card.",
+      "#rThe #roption #rwill #rincrease #rthe #rdifficulty. NL When you enter Extra Turn, you lose 10 SP."
+    ]
+  },
+  "mon3tr:RebuildOption": {
+    "TEXT": [
+      "Reconstruct",
+      "Reconstruct your relic or your card",
+      "Your[Reconstructed Crystal] is not enough"
+    ]
+  },
+  "mon3tr:RebuildEffect": {
+    "TEXT": [
+      "Reconstruct your relic or your card",
+      "Choose a relic to reconstruct",
+      "Choose a card to reconstruct",
+      "Get a reconstructed relic",
+      "Get a reconstructed card",
+      "Get a reconstructed... relic?!"
+    ]
+  },
+  "mon3tr:CrystalReward": {
+    "TEXT": [
+      "Get ",
+      " Reconstructed Crystal"
+    ]
+  },
+  "mon3tr:CrystalTopItem": {
+    "TEXT": [
+      "Reconstructed Crystal",
+      "Reconstructed Crystal is a resource that can be used at #yCampfire . At each campfire you can only reconstruct for #b1 time, which won't be counted in your number of action. NL NL #bHow #bto #bobtain : #yNon-minion enemy will drop. While Elites and Bosses will drop extra Reconstructed Crystal."
+    ]
+  },
+  "mon3tr:Config": {
+    "TEXT": [
+      "Whether allow other characters to Reconstruct or not (Concerning to Special Ending)",
+      "Mod Settings"
+    ]
+  },
+  "mon3tr:Tutorial": {
+    "TEXT": [
+      "SP (Skill Point)",
+      "Mon3tr has #b30 initial SP at every combat. If SP is enough, you can enter #yExtra #yTurn by playing the special card on the left side of your hand."
+    ]
+  },
+   "mon3tr:Simulation": {
+    "TEXT": [
+
+    ],
+    "EXTRA_TEXT": [
+      "Simulation Domain:As the Empire's Shadow",
+      "Simulation Domian:Mártus's Sophontheatrum",
+      "Simulation Domain:Awakening, a Dream's End"
+    ]
+  },
+  "mon3tr:Monsters": {
+    "TEXT": [
+      "\"Emperor's Blade\", Pursuer",
+      "Mártus, \"Seaborn\"",
+      "Mephisto, \"The Singer\""
+    ]
+  }
+}

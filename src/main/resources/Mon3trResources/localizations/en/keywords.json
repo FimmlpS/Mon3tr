@@ -1,0 +1,132 @@
+[
+  {
+    "NAMES": [
+      "iterate"
+    ],
+    "DESCRIPTION": "Mon3tr's cards have a Iterate counter. When played it will gain 1 Iterate count."
+  },
+  {
+    "NAMES": [
+      "evolve X(criteria card)",
+      "evolve"
+    ],
+    "DESCRIPTION": "When played other card that match the criteria, increase this card's #yIterate count by X."
+  },
+  {
+    "NAMES": [
+      "express card",
+      "express"
+    ],
+    "DESCRIPTION": "A series of #yEthereal cards. Every entity can only have 1 express effect."
+  },
+  {
+    "NAMES": [
+      "transcript"
+    ],
+    "DESCRIPTION": "According to the card you choose, add #that #many express card into your hand. Attack is more likely to be expressed as #ydebuff card, Skill is more likely to be expressed as #ybuff card."
+  },
+  {
+    "NAMES": [
+      "sp"
+    ],
+    "DESCRIPTION": "Some of your card need to consume SP. When Mon3tr's card's #yIterate count increase, gain that many SP."
+  },
+  {
+    "NAMES": [
+      "sp-consumption X",
+      "sp-consumption"
+    ],
+    "DESCRIPTION": "Consume certain #ySP to play the card or trigger special effect. However, in #rMeltdowun #rTurn you will nolonger need to consume SP ."
+  },
+  {
+    "NAMES": [
+      "crystal"
+    ],
+    "DESCRIPTION": "When attacked deal damage equals to the Crystal you have to all enemies, then remove #b20% of it. NL At the start of the turn, remove the Crystal and give #yMon3tr that many Block."
+  },
+  {
+    "NAMES": [
+      "disorder-crystal"
+    ],
+    "DESCRIPTION": "When the entity that have #yDisorder #yCrystal gain buff or lose debuff, it gian X #yCrystal ."
+  },
+  {
+    "NAMES": [
+      "strategy card",
+      "strategy"
+    ],
+    "DESCRIPTION": "For the card Whose name is start with #yStrategy: , you can switch its form by right clicking (not including #rMeltdown and #bOverload )."
+  },
+  {
+    "NAMES": [
+      "extra-turn"
+    ],
+    "DESCRIPTION": "The turn Mon3tr can obtain by playing Strategy card, including #bOverload #bTurn and #rMeltdown #rTurn ."
+  },
+  {
+    "NAMES": [
+      "overload-turn"
+    ],
+    "DESCRIPTION": "SP demand: #b40 NL In this turn #rThe SP you gain this turn will be halved. NL At the start of this turn draw #b2 less cards, then consume #b40 SP."
+  },
+  {
+    "NAMES": [
+      "meltdown-turn"
+    ],
+    "DESCRIPTION": "SP demand: #b80 NL When you play a card, if your SP is not less than 20: gain 1 #yStrength and 1 #y Dexterity and at the end of your turn, lose that many, draw 1 card and gian 1 Energy, and then consume #b20 SP."
+  },
+  {
+    "NAMES": [
+      "reconstructed"
+    ],
+    "DESCRIPTION": "Friendly entity that can take the #ynon-attack damage that you are to take, and increase the damage taken by enemies by #b1 . When enter a #rMeltdown #rTurn , you will #yabsorb it and heal #b5 HP."
+  },
+  {
+    "NAMES": [
+      "absorb"
+    ],
+    "DESCRIPTION": "Gain Block equals to the #yReconstructed's HP, and then remove it."
+  },
+  {
+    "NAMES": [
+      "disposable"
+    ],
+    "DESCRIPTION": "When played, removed from the cmobat and your deck."
+  },
+  {
+    "NAMES": [
+      "the-future-ends-with-past"
+    ],
+    "DESCRIPTION": "At the start of your turn, return this card to your hand."
+  },
+  {
+    "NAMES": [
+      "the-eternity-bound-by-instant"
+    ],
+    "DESCRIPTION": "When being mon3tr:Iterated , increase the mIterate count by extra 2."
+  },
+  {
+    "NAMES": [
+      "relocated"
+    ],
+    "DESCRIPTION": "When drawn, draw 1 extra card."
+  },
+  {
+    "NAMES": [
+      "simulation-Domain"
+    ],
+    "DESCRIPTION": "Extra Acts (3 types in total). You will only enter each act once."
+  },
+  {
+    "NAMES": [
+      "humanity"
+    ],
+    "DESCRIPTION": "If positive, you take 7% less damage from attack for each Humanity you have (At most 35%). NL If negative, you deal 10% more damage through Attack for each Humanity you have (At most 50%) NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative."
+  },
+  {
+    "NAMES": [
+      "concentric-Iteration"
+    ],
+    "DESCRIPTION": "Every time you Iterate, let the card with the same ID gain 1#bprimary Iterate count in the coming battles."
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "mon3tr:Mon2tr": {
+    "NAME": "迭代的证明",
+    "FLAVOR": "晶簇在振动之余重新汇聚，你将未完成的使命再度拾起。",
+    "DESCRIPTIONS": [
+      "在每场战斗开始时，额外抽 #b2 张牌并获得 [E] 。之后2回合少抽 #b1 张牌。"
+    ]
+  },
+  "mon3tr:Mon3trR": {
+    "NAME": "迭代的证明·续",
+    "FLAVOR": "未完成的使命被再度拾起，逝者在弥散之余向未来看去。",
+    "DESCRIPTIONS": [
+      "每场战斗第一个回合 #y保留 你的手牌。"
+    ]
+  },
+  "mon3tr:ModuleOverclock": {
+    "NAME": "模块：超频转化",
+    "FLAVOR": "主目标律动频率增幅器激活……",
+    "DESCRIPTIONS": [
+      "在你 #ymon3tr:额外回合 开始时，抽 #b2 张牌。"
+    ]
+  },
+  "mon3tr:ModuleRecycle": {
+    "NAME": "主模块：聚能回收",
+    "FLAVOR": "主目标能量聚焦增幅器激活……",
+    "DESCRIPTIONS": [
+      "在你 #ymon3tr:额外回合 开始时，获得 [E] 。"
+    ]
+  },
+  "mon3tr:MainModuleRecycle": {
+    "NAME": "主模块：溢能回收",
+    "FLAVOR": "主目标溢能回收转化器部署……",
+    "DESCRIPTIONS": [
+      "进入 #ymon3tr:额外回合 时，你每有1点能量剩余，抽 #b1 张牌并获得 [E] （不超过能量上限）。"
+    ]
+  },
+  "mon3tr:ModuleTarget": {
+    "NAME": "模块：靶向修复",
+    "FLAVOR": "主目标靶向药物补给器激活……",
+    "DESCRIPTIONS": [
+      "在你 #ymon3tr:额外回合 开始时，获得 #b8 点 #y格挡 。"
+    ]
+  },
+  "mon3tr:ModuleReceptor": {
+    "NAME": "模块：受体激动",
+    "FLAVOR": "主目标受体激素补给器激活……",
+    "DESCRIPTIONS": [
+      "在你 #ymon3tr:额外回合 开始时，获得 #b3 点 #y力量 和 #y敏捷 直到回合结束。"
+    ]
+  },
+  "mon3tr:MainModuleHelp": {
+    "NAME": "主模块：战地援护",
+    "FLAVOR": "主目标战地援护无人机部署……",
+    "DESCRIPTIONS": [
+      "进入 #ymon3tr:额外回合 时，给予所有敌人1层 #y虚弱 和1层 #y易伤 。"
+    ]
+  },
+  "mon3tr:DeviceResonance": {
+    "NAME": "装置：共振外装",
+    "FLAVOR": "共振外装启用，保持监测……",
+    "DESCRIPTIONS": [
+      "在你回合结束时，本回合每有一名被 #y攻击 过的敌人，对所有敌人造成 #b3 点伤害。"
+    ]
+  },
+  "mon3tr:DeviceHardness": {
+    "NAME": "装置：险固外装",
+    "FLAVOR": "险固外装启用，保持守御……",
+    "DESCRIPTIONS": [
+      "每回合限一次，当你的格挡被突破后，立即获得 #b12 点 #y格挡 。"
+    ]
+  },
+  "mon3tr:ModuleFast": {
+    "NAME": "模块：快速充能",
+    "FLAVOR": "主目标递推译能迭代器激活……",
+    "DESCRIPTIONS": [
+      "你每回合打出的首张牌额外增加 #b2 点 #ymon3tr:迭代 计数。"
+    ]
+  },
+  "mon3tr:ModulePrepare": {
+    "NAME": "模块：先行筹划",
+    "FLAVOR": "主目标基础机能迭代器激活……",
+    "DESCRIPTIONS": [
+      "战斗开始时，使你的所有牌获得 #b1 点 #ymon3tr:迭代 计数（不回复 #ymon3tr:技力 ）。"
+    ]
+  },
+  "mon3tr:MainModuleDetect": {
+    "NAME": "模块：轻型瞄准",
+    "FLAVOR": "主目标轻型瞄准测距仪部署……",
+    "DESCRIPTIONS": [
+      "当你打出 #r攻击牌 后，使手中随机 #y技能牌 增加1点 #ymon3tr:迭代 计数。"
+    ]
+  },
+  "mon3tr:ModuleRadiate": {
+    "NAME": "模块：焕能精油",
+    "FLAVOR": "主目标晶核焕能精炼油添加……",
+    "DESCRIPTIONS": [
+      "每当你获得或给予 #ymon3tr:晶核 时，额外增加 #b1 层。"
+    ]
+  },
+  "mon3tr:ModuleRecover": {
+    "NAME": "模块：复苏精油",
+    "FLAVOR": "主目标细胞复苏精炼油添加……",
+    "DESCRIPTIONS": [
+      "每当你失去生命时，获得 #b2 层 #ymon3tr:晶核 。"
+    ]
+  },
+  "mon3tr:MainModuleColdness": {
+    "NAME": "主模块：速冷喷雾",
+    "FLAVOR": "主目标速冷喷雾发射台部署……",
+    "DESCRIPTIONS": [
+      "所有敌人初始拥有 #b1 层 #ymon3tr:失序晶核 。"
+    ]
+  },
+  "mon3tr:M3LZ": {
+    "NAME": "M3利爪",
+    "FLAVOR": "“你的手是软的哦，Mon3tr。” ——迷迭香",
+    "DESCRIPTIONS": [
+      "在你攻击敌人后，回复1点 #ymon3tr:技力 。 NL 若持有 #yM3护甲 ，每当敌人死亡后你回复20点 #y技力 。"
+    ]
+  },
+  "mon3tr:M3HJ": {
+    "NAME": "M3护甲",
+    "FLAVOR": "“Mon3tr，训练场见，今天不累不归！” ——煌",
+    "DESCRIPTIONS": [
+      "在你受到伤害后，获得2点 #y格挡 。 NL 若持有 #yM3利爪 ，你受到致命伤害后，消耗40点 #ymon3tr:技力 以回复至20点生命。"
+    ]
+  },
+
+  "mon3tr:SpecialSeal": {
+    "NAME": "Mon3tr特限证章",
+    "FLAVOR": "特殊行动许可获取……权限验证成功——Mon3tr——允许解除作战限制",
+    "DESCRIPTIONS": [
+      "你的 #ymon3tr:技力 上限提升至 #b100 。 NL 每回合回复 #b10 点技力。"
+    ]
+  },
+  "mon3tr:RephaseEnantiomer": {
+    "NAME": "重相位对映体",
+    "FLAVOR": "仍处于试验阶段的新材料，不仅能够承受高功率的能量输出，甚至对源石技艺展现出了自适应的特性。",
+    "DESCRIPTIONS": [
+      "你每造成10点攻击伤害，就获得 #b2 点 #y格挡 。 NL 在 #ymon3tr:额外回合 中改为 #b4 点格挡。"
+    ]
+  },
+  "mon3tr:Remainings": {
+    "NAME": "残余",
+    "FLAVOR": "源石已将大地同化，内在宇宙正化为现实。她将一切悉数寄托于人，只留下自己的名字，将使命磨成利刃。",
+    "DESCRIPTIONS": [
+      "打出每回合的第1张牌后，若为 #ymon3tr:额外回合 则 升级 所有手牌，否则获得 [E] 。"
+    ]
+  },
+
+  "mon3tr:BadOrganization": {
+    "NAME": "劣化组织",
+    "FLAVOR": "在萨米以北的无尽冰原中找寻到的，十分古老的质密结缔组织。用于复现Mon3tr的记忆场景。",
+    "DESCRIPTIONS": [
+      "结束 #y终幕 或 #ymon3tr:模拟域 时，进入模拟域：如帝国之影 NL #r不能被重构"
+    ]
+  },
+  "mon3tr:GeneSeed": {
+    "NAME": "养育者基因种",
+    "FLAVOR": "集体进化由个体突变推动，个体难题由集体智慧解决。用于复现Mon3tr的记忆场景。",
+    "DESCRIPTIONS": [
+      "结束 #y终幕 或 #ymon3tr:模拟域 时，进入模拟域：玛利图斯的斗智场 NL #r不能被重构"
+    ]
+  },
+  "mon3tr:LiveDust": {
+    "NAME": "活性粉尘",
+    "FLAVOR": "泰拉源石工业生产中的废弃物，很危险，请妥善处置。用于复现Mon3tr的记忆场景。",
+    "DESCRIPTIONS": [
+      "结束 #y终幕 或 #ymon3tr:模拟域 时，进入模拟域：苏醒，浮出梦乡 NL #r不能被重构"
+    ]
+  }
+}

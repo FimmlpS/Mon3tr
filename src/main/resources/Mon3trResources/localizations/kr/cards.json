@@ -1,0 +1,611 @@
+{
+  "mon3tr:Strike": {
+    "NAME": "타격",
+    "DESCRIPTION": "피해를 !D! 줍니다."
+  },
+  "mon3tr:Defend": {
+    "NAME": "수비",
+    "DESCRIPTION": "방어도를 !B! 얻습니다."
+  },
+  "mon3tr:Core": {
+    "NAME": "코어",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL mon3tr:반복 횟수가 1 증가할 때마다, mon3tr:결정을 !M! 얻습니다."
+  },
+  "mon3tr:Unstoppable": {
+    "NAME": "미완성",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 손에 있는 카드가 최대 수보다 적을 때마다 피해량이 !M! 증가합니다."
+  },
+
+  "mon3tr:CrystalDiffusion": {
+    "NAME": "결정 확산",
+    "DESCRIPTION": "무작위 적들에게 피해를 !D! 만큼 3 번 줍니다. NL 공격 받은 적에게 mon3tr:결정을 !M! 부여합니다."
+  },
+  "mon3tr:RebuildFate": {
+    "NAME": "운명 재구성",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL mon3tr:반복 횟수가 가장 높은 카드 !M! 장을 가져옵니다."
+  },
+  "mon3tr:PrepareMedicine": {
+    "NAME": "의료 준비",
+    "DESCRIPTION": "Gain 1 mon3tr:Humanity. NL Gain !M! Block in the next turn."
+  },
+  "mon3tr:Redirect": {
+    "NAME": "재배치",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 버린 카드 더미에서 카드를 하나 선택하여 뽑기 더미의 맨 위에 놓습니다. 해당 카드를 뽑을 때 추가로 1장의 카드를 뽑습니다."
+  },
+  "mon3tr:LullabyOfDeath": {
+    "NAME": "추락한 자들의 전주곡",
+    "DESCRIPTION": "방어도를 !B! 얻습니다 . NL 손에 있는 카드를 무작위로 !M! 번 mon3tr:반복 시킵니다."
+  },
+  "mon3tr:StrategyLock": {
+    "NAME": "목표 잠금",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 턴에 대상을 공격할 때마다 추가 피해를 !M! 줍니다."
+  },
+  "mon3tr:IntoTheMarrow": {
+    "NAME": "골수 속으로",
+    "DESCRIPTION": "mon3tr:일회용 , 강화불가.  NL 모든 적의 체력을 대상의 최대 체력 !M! % 만큼 감소시킵니다.",
+    "EXTENDED_DESCRIPTION": [
+      "(체력 !D! 잃음) NL "
+    ]
+  },
+  "mon3tr:Mesh": {
+    "NAME": "메쉬",
+    "DESCRIPTION": "카드를 !M! 장 뽑습니다. NL 이 카드보다 mon3tr:반복 횟수가 낮은 카드는 뽑은 후 버립니다."
+  },
+  "mon3tr:OrganizeSample": {
+    "NAME": "조직 샘플링",
+    "DESCRIPTION": "카드를 !M! 장 뽑습니다. NL 카드 1 장을 mon3tr:전사 합니다."
+  },
+  "mon3tr:CrackStrike": {
+    "NAME": "찢어발기기",
+    "DESCRIPTION": "Deal !D! to a random enemy 2 times. NL Lose 2 mon3tr:Humanity."
+  },
+  "mon3tr:WeaveBlock": {
+    "NAME": "책략: 우회 공격",
+    "DESCRIPTION": "적 전체에게 피해를 !D! 줍니다. NL mon3tr:엑스트라 *턴에 진입하면 이 카드를 손으로 가져옵니다.",
+    "EXTENDED_DESCRIPTION": [
+      "책략: 이중 우회",
+      "피해를 !D! 만큼 2번 줍니다. NL mon3tr:엑스트라 *턴에 진입하면 이 카드를 손으로 가져옵니다."
+    ]
+  },
+  "mon3tr:StrategyTree": {
+    "NAME": "책략: STP",
+    "DESCRIPTION": "카드를 !M! 장 뽑습니다. NL 다음턴에 [E] 를 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "책략: 반전된 나무",
+      "[E] 를 얻습니다. NL 다음 턴에 카드를 !M! 장 더 뽑습니다."
+    ]
+  },
+  "mon3tr:DustToDust": {
+    "NAME": "먼지에서 먼지로",
+    "DESCRIPTION": " 소멸 . NL 적 전체에게 X 턴 후에, 피해를 !M! 만큼 X 번 줍니다."
+  },
+  "mon3tr:SharpGash": {
+    "NAME": "예리한 발톱",
+    "DESCRIPTION": " mon3tr:진화 1: 비용이 0 인 공격 카드. NL 피해를 !D! 줍니다. NL mon3tr:반복 횟수만큼 피해량이 !M! 증가합니다."
+  },
+  "mon3tr:CrippleStrike": {
+    "NAME": "마비 공격",
+    "DESCRIPTION": " mon3tr:SP-소모량 (8) NL 피해를 !D! 줍니다. NL 취약을 !M! 부여합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "아직 충분치 않아... NL ",
+      " SP가 필요해."
+    ]
+  },
+  "mon3tr:Calcite": {
+    "NAME": "방해석",
+    "DESCRIPTION": " mon3tr:SP-소모량 ( !M! ) NL 방어도를 !B! 얻습니다. NL 이번 전투동안 이 카드의 *SP-소모량과 방어도가 2배 증가합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "아직 충분치 않아... NL ",
+      " SP가 필요해."
+    ]
+  },
+  "mon3tr:ShiningTogether": {
+    "NAME": "함께 빛나리",
+    "DESCRIPTION": " mon3tr:진화 !M! : 매 턴 처음 사용된 카드. NL 피해를 !D! 줍니다. NL 이 카드가 *진화하면, 조건 카드와 이 카드의 피해량이 !M! 증가합니다."
+  },
+  "mon3tr:FadeAndGrow": {
+    "NAME": "쇠퇴 그리고 성장",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 막히지 않은 피해량 만큼 손에 있는 카드를 무작위로 mon3tr:반복 시킵니다."
+  },
+  "mon3tr:EndingOfMemory": {
+    "NAME": "기억의 끝",
+    "DESCRIPTION": " 사용불가. NL 턴 종료시, 이 카드가 *오른쪽 *끝에 있다면, 이번 턴에 사용된 카드를 선택하여 사용합니다.",
+    "UPGRADE_DESCRIPTION": " 사용불가. NL 턴 종료시, 이 카드가 *양쪽 *끝에 있다면, 이번 턴에 사용된 카드를 선택하여 사용합니다."
+  },
+  "mon3tr:StructureGuidance": {
+    "NAME": "구조 지침",
+    "DESCRIPTION": "*금속화를 발동합니다. NL mon3tr:반복 횟수가 2 증가할 때마다, 1 *금속화를 얻습니다.",
+    "UPGRADE_DESCRIPTION": "턴 종료 효과를 발동합니다. NL mon3tr:반복 횟수가 2 증가할 때마다, 1 *금속화를 얻습니다."
+  },
+  "mon3tr:Subspace": {
+    "NAME": "하위 공간",
+    "DESCRIPTION": "mon3tr:결정을 !M! 부여합니다. NL mon3tr:엑스트라 *턴에 진입하면 이 카드를 손으로 가져옵니다."
+  },
+
+  "mon3tr:BattleFocus": {
+    "NAME": "전투 집중",
+    "DESCRIPTION": "Deal !D! damage. NL Until the end of turn, every time you play Attack, lose 1 mon3tr:Humanity."
+  },
+  "mon3tr:ExistInNameOnly": {
+    "NAME": "유명무실",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 추가 피해를 !D! 줍니다. 이전과 입힌 피해량이 다를 때마다 추가 피해를 한 번 더 줍니다."
+  },
+  "mon3tr:DensificationBody": {
+    "NAME": "고밀도화",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 자신의 mon3tr:결정 만큼 이 카드의 방어도가 증가합니다."
+  },
+  "mon3tr:NewLive": {
+    "NAME": "재탄생",
+    "DESCRIPTION": " Exhaust a card in your hand. NL Gain mon3tr:Humanity equals to its cost ."
+  },
+  "mon3tr:DeconstructToChaos": {
+    "NAME": "혼돈 해체",
+    "DESCRIPTION": "손에 있는 카드가 5장 미만일 때마다, 공격 카드의 피해량이 !M! 증가합니다."
+  },
+  "mon3tr:ProgressiveApproach": {
+    "NAME": "단계적 접근 방식",
+    "DESCRIPTION": "카드를 1 장 사용하면, 카드를 1 장 뽑습니다. 턴을 종료할 때까지, 필요한 카드는 2 장씩 증가합니다."
+  },
+  "mon3tr:IterationAcceleration": {
+    "NAME": "반복 가속화",
+    "DESCRIPTION": "모든 카드를 !M! 번 mon3tr:반복 시킵니다."
+  },
+  "mon3tr:InverseQuantization": {
+    "NAME": "역 양자화",
+    "DESCRIPTION": "피해를 !D! 만큼 3 번 줍니다. NL 대상에게서 힘을 !M! 강탈합니다."
+  },
+  "mon3tr:StrategyFocus": {
+    "NAME": "책략: 집중",
+    "DESCRIPTION": "원하는 만큼 카드를 버립니다. NL 버린 수만큼 손에 있는 카드의 mon3tr:반복 횟수가 증가합니다.",
+    "UPGRADE_DESCRIPTION": "원하는 만큼 카드를 버립니다. NL 버린 수+1만큼 손에 있는 카드의 mon3tr:반복 횟수가 증가합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "책략: 복구",
+      "원하는 만큼 카드를 버립니다. NL 버린 수+ !M! 만큼 카드를 뽑습니다."
+    ]
+  },
+  "mon3tr:TimeInsight": {
+    "NAME": "노련한 통찰력",
+    "DESCRIPTION": "카드를 !M! 장 뽑습니다. NL mon3tr:반복 횟수가 3 증가할 때마다, *세월의 *통찰력을 뽑을 카드 더미에 섞어 넣습니다.",
+    "UPGRADE_DESCRIPTION": "카드를 !M! 장 뽑습니다. NL mon3tr:반복 횟수가 3 증가할 때마다, *세월의 *통찰력+을 뽑을 카드 더미에 섞어 넣습니다."
+  },
+  "mon3tr:DimensionMiracle": {
+    "NAME": "차원의 기적",
+    "DESCRIPTION": "[E] 를 얻습니다. NL mon3tr:반복 횟수가 3 증가할 때마다, *광역 *기적을 뽑을 카드에 더미에 섞어 넣습니다.",
+    "UPGRADE_DESCRIPTION": "[E] 를 얻습니다. NL mon3tr:반복 횟수가 3 증가할 때마다, *광역 *기적+을 뽑을 카드 더미에 섞어 넣습니다."
+  },
+  "mon3tr:StrategyFollowUp": {
+    "NAME": "책략: 추격",
+    "DESCRIPTION": "이번 턴에 공격받은 모든 적에게 피해를 !D! 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      "책략: 매복",
+      "이번 턴에 공격받지 않은 모든 적에게 피해를 !D! 줍니다."
+    ]
+  },
+  "mon3tr:InDustOrBlood": {
+    "NAME": "먼지나 피 속에서",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 적의 현재 체력이 최대 체력보다 20% 낮을 때마다, *기억의 *파편을 얻습니다."
+  },
+  "mon3tr:CriticalPoint": {
+    "NAME": "임계점",
+    "DESCRIPTION": "소멸. NL 카드를 !M! 장까지 소멸시키고 mon3tr:전사 합니다."
+  },
+  "mon3tr:InformationSkim": {
+    "NAME": "정보 검색",
+    "DESCRIPTION": "소멸 . NL *세월의 *통찰력과 *광역 *기적을 번갈아가며 X 번 얻습니다.",
+    "UPGRADE_DESCRIPTION": "소멸 . NL *세월의 *통찰력과 *광역 *기적을 번갈아가며 X+1 번 얻습니다."
+  },
+  "mon3tr:TimeSand": {
+    "NAME": "시간의 모래",
+    "DESCRIPTION": "Retain . NL Deal !D! damage !M! times. NL When Retained , increase its attack time by 1 and mon3tr:iterate count by 2."
+  },
+  "mon3tr:Resonance": {
+    "NAME": "공명",
+    "DESCRIPTION": "내 턴 종료 시 적 한 명당 적 전체에게 피해를 !M! 줍니다. mon3tr:엑스트라 *턴에 진입할 때마다, 피해량이 1 증가합니다."
+  },
+  "mon3tr:MedicineShield": {
+    "NAME": "자가증강 의료방패",
+    "DESCRIPTION": "!M! *금속화를 얻습니다. NL 내 턴 시작시 1 *금속화를 얻습니다."
+  },
+  "mon3tr:CanGetBack": {
+    "NAME": "다시 얻은 기회",
+    "DESCRIPTION": "Lose !M! mon3tr:Humanity . NL If this card is in your hand at the end of your turn, gain !M! mon3tr:Humanity ."
+  },
+  "mon3tr:StarWeb": {
+    "NAME": "스타 네트워크",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 뽑을 카드 더미의 모든 *스타 *네트워크를 무작위 적들에게 사용합니다. NL 이 카드를 뽑을 시, 카드를 한 장 복사해 뽑을 카드 더미에 섞어 넣습니다."
+  },
+  "mon3tr:ProtocolOfPsyche": {
+    "NAME": "심리 프로토콜",
+    "DESCRIPTION": "턴 시작시, [E] 를 !M! 잃습니다. NL *광역 *기적을 !M! 장 얻습니다."
+  },
+  "mon3tr:HotShock": {
+    "NAME": "히트 쇼크",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL [E] 를 잃고 이 카드를 mon3tr:전사 합니다. NL mon3tr:엑스트라 *턴 이라면 2 번 발동합니다."
+  },
+  "mon3tr:PolishClaws": {
+    "NAME": "발톱 광내기",
+    "DESCRIPTION": " 소멸. NL mon3tr:진화 1: 공격 카드. NL 이 카드의 mon3tr:반복 횟수만큼, 1 판금 갑옷을 얻습니다. NL ( 최대 !M! )",
+    "UPGRADE_DESCRIPTION": " 소멸. NL mon3tr:진화 1: 스킬이 아닌 카드. NL 이 카드의 mon3tr:반복 횟수만큼, 1 판금 갑옷을 얻습니다. NL ( 최대 8 )"
+  },
+  "mon3tr:IsolationClearance": {
+    "NAME": "격리 공간",
+    "DESCRIPTION": "mon3tr:엑스트라 *턴이 끝날 때까지 지속됩니다. NL 힘을 !M! 얻습니다. NL 민첩을 !M! 얻습니다."
+  },
+  "mon3tr:IntenseCrystalCracking": {
+    "NAME": "결정 파열",
+    "DESCRIPTION": "피해를 !D! 만큼 !M! 번 줍니다. NL mon3tr:SP-소모량 (뽑을/버린 카드 더미의 카드 수 차이): 카드 3 장당 공격 횟수가 1 증가합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "아직 충분치않아... NL ",
+      " SP가 필요해."
+    ]
+  },
+  "mon3tr:CellActivation": {
+    "NAME": "세포 활성화",
+    "DESCRIPTION": "mon3tr:결정을 제거할 때, 그중 33%를 유지하고 mon3tr:결정을 !M! 얻습니다."
+  },
+  "mon3tr:TurbulentFlow": {
+    "NAME": "난류화",
+    "DESCRIPTION": "손에 있는 카드의 수가 4 장 미만일 시, 한 턴마다 한 번 무작위 소멸 카드를 !M! 장 얻습니다. NL 얻은 카드의 비용이 [E] 감소합니다."
+  },
+  "mon3tr:AnotherHand": {
+    "NAME": "제 3의 손",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 뽑을 카드 더미와 버린 카드 더미에서 무작위 공격 카드 5 장 중 !M! 장을 선택하여 가져옵니다."
+  },
+  "mon3tr:SorryForYou": {
+    "NAME": "\"이런, 너무 힘을 줬나.\"",
+    "DESCRIPTION": "피해를 !D! 만큼 X 번 줍니다. NL 치명타라면, [E] 를 최대치까지 얻습니다.",
+    "UPGRADE_DESCRIPTION": "피해를 !D! 만큼 X+1 번 줍니다. NL 치명타라면, [E] 를 최대치까지 얻습니다.",
+    "FLAVOR": "의료 부서 직원들이 Mon3tr의 전장을 바라보며, 그녀의 미소가 과연 누구를 위한 것인지 추측하고 있다."
+  },
+  "mon3tr:RuinAndCure": {
+    "NAME": "파멸 & 치유",
+    "DESCRIPTION": " 소멸. NL 피해를 !D! 줍니다. NL 막히지 않은 피해만큼 체력을 회복합니다."
+  },
+  "mon3tr:EndingOfCirculation": {
+    "NAME": "윤회의 끝",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 방어도를 !B! 얻습니다. NL 이 카드의 피해량과 방어도의 수치 변동은 2번 적용됩니다."
+  },
+  "mon3tr:MakeNoAllowance": {
+    "NAME": "여지따위 없다",
+    "DESCRIPTION": "소멸. NL 적의 힘을 모두 제거합니다. NL 이 카드를 뽑을 시, 모두가 힘을 !M! 얻습니다."
+  },
+  "mon3tr:FateReflow": {
+    "NAME": "운명 역류",
+    "DESCRIPTION": " 소멸. NL 적을 선택합니다. NL 어떤 적에게라도 막히지 않은 공격 피해를 입히면, 대상은 피해량의 25%만큼 체력을 잃습니다.",
+    "FLAVOR": "Card Image is to be made……"
+  },
+  "mon3tr:Hedge": {
+    "NAME": "不置可否",
+    "DESCRIPTION": "Exhaust . NL 将你当前的 格挡 翻倍. NL 抽到时所有单位均分 !M! Block .",
+    "FLAVOR": "已弃用"
+  },
+  "mon3tr:CoverMeInDebris": {
+    "NAME": "잔해로 덮어줘",
+    "DESCRIPTION": "소멸. NL mon3tr:결정을 !M! 얻습니다. NL mon3tr:SP-소모량 (8): 소멸된 카드 더미에서 오른쪽 클릭하면 손으로 가져옵니다."
+  },
+  "mon3tr:CrystalEntity": {
+    "NAME": "결정 시각화",
+    "DESCRIPTION": "mon3tr:Concentric-Iteration . NL mon3tr:Evolve 1: Power .NL Every time this card gain mon3tr:Iterate count, deal !M! damage to all enemies."
+  },
+
+  "mon3tr:NamedMonster": {
+    "NAME": "내 이름은 \"Monster\"",
+    "DESCRIPTION": "Gain !M! mon3tr:Humanity . NL Reset the effect of positive and negative mon3tr:Humanity to 10% and 15% separately."
+  },
+  "mon3tr:NoLongerSung": {
+    "NAME": "더는 칭송받지 않는 자",
+    "DESCRIPTION": " mon3tr:진화 1: 모든 카드. NL 피해를 !D! 줍니다. NL mon3tr:반복 횟수만큼 이 카드의 피해량이 !M! 감소합니다.",
+    "UPGRADE_DESCRIPTION": " mon3tr:진화 1: 모든 카드. NL 피해를 !D! 줍니다. NL mon3tr:반복 횟수만큼 이 카드의 피해량이 !M! 증가합니다.",
+    "FLAVOR": "칭송받는 자 (Utawarerumono)",
+    "EXTENDED_DESCRIPTION": [
+      "칭송받는 자"
+    ]
+  },
+  "mon3tr:StrategyOverpressureLink": {
+    "NAME": "책략: 초연결",
+    "DESCRIPTION": "보존. NL 오른쪽 클릭으로 mon3tr:책략을 전환하고, 카드를 !M! 장 뽑습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "책략: 미래 연결",
+      "보존. NL 손에 있는 카드가 !M! 장 이상이라면, 오른쪽 클릭으로 mon3tr:책략을 전환하고, 카드를 !M! 장 버립니다."
+    ]
+  },
+  "mon3tr:CircularTwins": {
+    "NAME": "쌍생 윤회",
+    "DESCRIPTION": "*과거로부터 *온 *자를 얻습니다. NL *지금 *여기에 *있는 *자를 얻습니다.",
+    "UPGRADE_DESCRIPTION": "*과거로부터 *온 *자를 얻습니다. NL *지금 *여기에 *있는 *자를 얻습니다."
+  },
+  "mon3tr:ShatteredEcho": {
+    "NAME": "부서진 기억",
+    "DESCRIPTION": "mon3tr:진화 !M! : 상태이상 카드. NL 피해를 !D! 줍니다. NL 이 카드의 mon3tr:반복 횟수를 제거하고, 그만큼 *기억의 *파편을 사용합니다.",
+    "UPGRADE_DESCRIPTION": "mon3tr:진화 !M! : 상태이상 카드. NL 피해를 !D! 줍니다. NL 이 카드의 mon3tr:반복 횟수를 제거하고, 그만큼 *기억의 *파편+을 사용합니다."
+  },
+  "mon3tr:ChangesByDegree": {
+    "NAME": "단계적 변화",
+    "DESCRIPTION": " 소멸. NL 원하는 만큼 카드를 버립니다. NL 버린 카드들이 서로 같은 비용이라면, mon3tr:전사 합니다.",
+    "UPGRADE_DESCRIPTION": " 소멸. NL 원하는 만큼 카드를 버립니다. NL 버린 카드들이 서로 같거나 다른 비용이라면, mon3tr:전사 합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "단계적 나선 변화"
+    ]
+  },
+  "mon3tr:SelfMagnetism": {
+    "NAME": "자기력",
+    "DESCRIPTION": "mon3tr:엑스트라 *턴에 진입해도, 방어도를 잃지 않습니다.",
+    "UPGRADE_DESCRIPTION": " 선천성. NL mon3tr:엑스트라 *턴에 진입해도, 방어도를 잃지 않습니다."
+  },
+  "mon3tr:DimensionalDeduction": {
+    "NAME": "다차원 추론",
+    "DESCRIPTION": "mon3tr:책략 카드를 사용할 때, 해당 카드의 다른 형태를 복사하여 손에 가져옵니다. 복사된 카드는 허무 및 소멸을 가지며, 책략을 전환할 수 없습니다."
+  },
+  "mon3tr:BackTrack": {
+    "NAME": "역추적",
+    "DESCRIPTION": "공격 및 스킬 카드를 4 장 사용할 때마다, 그중 소멸되지 않았으며 비용이 가장 높은 카드를 가져옵니다."
+  },
+  "mon3tr:MutualExclusion": {
+    "NAME": "배타적 성질",
+    "DESCRIPTION": "mon3tr:결정을 !M! 부여합니다. NL mon3tr:무질서 *결정을 !M! 부여합니다."
+  },
+  "mon3tr:ReverseHalfLife": {
+    "NAME": "역 반감기",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 대상의 mon3tr:결정을 2 배로 늘립니다."
+  },
+  "mon3tr:PastEndsFuture": {
+    "NAME": "과거와 미래의 종착점",
+    "DESCRIPTION": "소멸. NL 카드를 선택합니다: NL 다음 턴 시작 시, 소멸과 상관없이 손으로 가져옵니다.",
+    "UPGRADE_DESCRIPTION": "보존, 소멸. NL 카드를 선택합니다: NL 다음 턴 시작 시, 소멸과 상관없이 손으로 가져옵니다."
+  },
+  "mon3tr:EternityMissesPresent": {
+    "NAME": "영원과 현재의 오차",
+    "DESCRIPTION": "소멸. NL 카드를 선택합니다: NL 해당 카드의 mon3tr:반복 횟수가 증가할 때마다, mon3tr:반복 횟수가 2 추가로 증가합니다.",
+    "UPGRADE_DESCRIPTION": "보존, 소멸. NL 카드를 선택합니다: NL 해당 카드의 mon3tr:반복 횟수가 증가할 때마다, mon3tr:반복 횟수가 2 추가로 증가합니다."
+  },
+  "mon3tr:AssaultCommand":{
+    "NAME": "공격 명령",
+    "DESCRIPTION": "소멸. NL mon3tr:SP를 !M! 얻습니다. NL 적의 턴 종료시, 체력을 20 만큼 잃습니다."
+  },
+  "mon3tr:UnbreakableRefactoring": {
+    "NAME": "비파괴 재구성",
+    "DESCRIPTION": "적 전체에게 피해를 !D! 줍니다. NL mon3tr:SP-소모량 (12): 버린 카드 더미에서 오른쪽 클릭하면 손으로 가져오고, 이 카드의 피해량이 !M! 증가합니다."
+  },
+  "mon3tr:MemoryCrystal": {
+    "NAME": "기억 결정",
+    "DESCRIPTION": "mon3tr:일회용 , 강화불가. NL 이번 전투에서 사용된 카드 중 1 장을 선택하고, 그 카드와 동일한 이름의 카드를 덱에 추가합니다."
+  },
+  "mon3tr:NeverThere": {
+    "NAME": "한 번도 떠난 적 없어",
+    "DESCRIPTION": "공격으로 막히지 않은 피해를 3 번 줄 때마다, 모두가 mon3tr:결정을 !M! 균등 분배받습니다."
+  },
+
+  "mon3tr:StrategyOverload": {
+    "NAME": "책략: 과부하",
+    "DESCRIPTION": "손에 있는 카드로 취급하지 않습니다. NL mon3tr:오버로드 *턴으로 진입합니다. NL 오른쪽 클릭으로 *책략을 전환할 수 있습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "최소 40SP가 필요해"
+    ]
+  },
+  "mon3tr:StrategyMeltdown": {
+    "NAME": "책략: 융해",
+    "DESCRIPTION": "손에 있는 카드로 취급하지 않습니다. NL mon3tr:멜트다운 *턴으로 진입합니다. NL 오른쪽 클릭으로 *책략을 전환할 수 있습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "최소 80SP가 필요해"
+    ]
+  },
+  "mon3tr:ClockInsight": {
+    "NAME": "세월의 통찰력",
+    "DESCRIPTION": "보존, 소멸. NL 카드를 !M! 장 뽑습니다. NL 뽑은 카드의 mon3tr:반복 횟수가 2 증가합니다."
+  },
+  "mon3tr:SpaceMiracle": {
+    "NAME": "광역 기적",
+    "DESCRIPTION": "보존, 소멸. NL [E] 를 얻습니다. NL 손에 있는 카드의 mon3tr:반복 횟수를 1 증가시킵니다. 단, *광역 *기적은 제외합니다.",
+    "UPGRADE_DESCRIPTION": "보존, 소멸. NL [E] [E] 를 얻습니다. NL 손에 있는 카드의 mon3tr:반복 횟수를 1 증가시킵니다. 단, *광역 *기적은 제외합니다."
+  },
+  "mon3tr:ThePastOne": {
+    "NAME": "과거로부터 온 자",
+    "DESCRIPTION": " 휘발성. NL mon3tr:진화 2: *지금 *여기에 *있는 *자. NL 방어도를 !B! 얻습니다. NL 소멸되면, mon3tr:반복 횟수만큼 방어도를 !M! 얻습니다."
+  },
+  "mon3tr:TheNowOne": {
+    "NAME": "지금 여기에 있는 자",
+    "DESCRIPTION": " 휘발성. NL mon3tr:진화 2: *과거로부터 *온 *자. NL 피해를 !D! 줍니다. NL 소멸되면, mon3tr:반복 횟수만큼 피해를 !M! 줍니다."
+  },
+  "mon3tr:MemoryFragment": {
+    "NAME": "기억의 파편",
+    "DESCRIPTION": " 소멸. NL 피해를 !D! 줍니다. NL mon3tr:결정을 !M! 부여합니다."
+  },
+  "mon3tr:SelfFix": {
+    "NAME": "자가 회복",
+    "DESCRIPTION": "mon3tr:재구성체를 소환합니다.",
+    "UPGRADE_DESCRIPTION": "mon3tr:재구성체를 소환합니다. NL 이미 mon3tr:재구성체가 존재한다면, 그것을 mon3tr:흡수한 후 소환합니다."
+  },
+  "mon3tr:BlackSnow": {
+    "NAME": "흑설",
+    "DESCRIPTION": " 소멸. NL 소멸되면, \"사냥꾼\"이 즉시 행동합니다."
+  },
+  "mon3tr:CageOfPerson": {
+    "NAME": "인성의 죄수",
+    "DESCRIPTION": "손에 있다면, 인접한 !M! 장의 카드를 사용할 수 없습니다."
+  },
+
+  "mon3tr:RelicPreviewCard": {
+    "NAME": "Relic Name",
+    "DESCRIPTION": "Relic description",
+    "EXTENDED_DESCRIPTION":[
+      "The effect of this relic",
+      "The Flavor of this relic"
+    ]
+  },
+  "mon3tr:RebuildRelic": {
+    "NAME": "유물 재구성",
+    "DESCRIPTION": "*재구성된 *결정 !M! 소모. NL *보스가 *아닌 유물을 제거합니다. NL 무작위 유물 셋 중 하나를 얻습니다."
+  },
+  "mon3tr:RebuildCard": {
+    "NAME": "카드 재구성",
+    "DESCRIPTION": "*재구성된 *결정 !M! 소모. NL *저주가 *아닌 카드를 제거합니다. NL 무작위 카드 셋 중 하나를 덱에 추가합니다."
+  },
+  "mon3tr:RebuildTechnic": {
+    "NAME": "충전",
+    "DESCRIPTION": "*재구성된 *결정 !M! 소모. NL 모든 전투에서 초기 mon3tr:SP를 8 증가시킵니다. NL 현재: !D! / !B!"
+  },
+  "mon3tr:RebuildProsts": {
+    "NAME": "재구성체 형성",
+    "DESCRIPTION": "*재구성된 *결정 !M! 소모. NL *자가 *회복을 덱에 추가합니다."
+  },
+  "mon3tr:RebuildReturn": {
+    "NAME": "돌아가기",
+    "DESCRIPTION": "휴식 장소로 돌아갑니다."
+  },
+  "mon3tr:MALMuscleAmyotrophy": {
+    "NAME": "악성:근위축증",
+    "DESCRIPTION": "mon3tr:익스프레스 : 적. NL 효과가 발동되거나 없어질 때, 힘이 1 감소합니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALEmotionDisorder": {
+    "NAME": "악성:감정 장애",
+    "DESCRIPTION": "mon3tr:익스프레스 : 적. NL 공격 시, 피해의 50% 만큼 적 전체에게 피해를 줍니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALNeuralRegression": {
+    "NAME": "악성:신경 퇴화",
+    "DESCRIPTION": "mon3tr:익스프레스 : 적. NL 효과가 발동되거나 없어질 때, 약화와 취약을 1 얻습니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALImmuneDisorder": {
+    "NAME": "악성:면역 장애",
+    "DESCRIPTION": "mon3tr:익스프레스 : 적. NL 얻는 방어도와 체력 회복량이 50% 감소합니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENMuscleStrengthen": {
+    "NAME": "양성:근력 강화",
+    "DESCRIPTION": "mon3tr:익스프레스 :자신. NL 효과가 발동되면, 민첩을 1 얻습니다. NL 효과가 없어지면, 힘을 1 얻습니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENEmotionStable": {
+    "NAME": "양성:감정 안정",
+    "DESCRIPTION": "mon3tr:익스프레스 :자신. NL 적의 공격으로 체력이 감소하면, 피해의 30% 만큼 방어도를 얻습니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENNeuralEvolution": {
+    "NAME": "양성:신경 진화",
+    "DESCRIPTION": "mon3tr:익스프레스 :자신. NL 효과가 발동되거나 없어질 때, 약화 취약 손상을 1 잃습니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENImmuneDevelop": {
+    "NAME": "양성:면역 발달",
+    "DESCRIPTION": "mon3tr:익스프레스 :자신. NL 체력 회복량과 얻는 방어도가 25% 만큼 증가합니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALIncapacitated": {
+    "NAME": "악성:행동력 상실",
+    "DESCRIPTION": "mon3tr:익스프레스 :적. NL 효과가 발동되거나 없어질 때, 힘이 2 감소합니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALInjudicious": {
+    "NAME": "악성:판단력 상실",
+    "DESCRIPTION": "mon3tr:익스프레스 :적. NL 공격 시, 공격의 100% 만큼 적 전체에게 피해를 줍니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALUnconcentrated": {
+    "NAME": "악성:집중력 상실",
+    "DESCRIPTION": "mon3tr:익스프레스 :적. NL 효과가 발동되거나 없어질 때, 약화와 취약을 2 얻습니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALCureless": {
+    "NAME": "악성:회복력 상실",
+    "DESCRIPTION": "mon3tr:익스프레스 :적. NL 얻는 방어도와 체력 회복량이 80% 감소합니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENCapacitated": {
+    "NAME": "양성:행동력 결집",
+    "DESCRIPTION": "mon3tr:익스프레스 :자신. NL 효과가 발동되면, 민첩을 2 얻습니다. NL 효과가 없어지면, 힘을 2 얻습니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENJudicious": {
+    "NAME": "양성:판단력 결집",
+    "DESCRIPTION": "mon3tr:익스프레스 :자신. NL 적의 공격으로 체력이 감소하면, 피해의 50% 만큼 방어도를 얻습니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENConcentrated": {
+    "NAME": "양성:집중력 강화",
+    "DESCRIPTION": "mon3tr:익스프레스 :자신. NL 효과가 발동되거나 없어질 때, 약화 취약 손상을 2 잃습니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENCurable": {
+    "NAME": "양성:회복력 강화",
+    "DESCRIPTION": "mon3tr:익스프레스 :자신. NL 체력 회복량과 얻는 방어도가 40% 만큼 증가합니다.",
+    "FLAVOR": "Card Image is to be made……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:SYSDrugResistance": {
+    "NAME": "시스템:약물 내성",
+    "DESCRIPTION": "mon3tr:익스프레스 :적. NL 효과가 발동되면, 대체된 *익스프레스 카드를 뽑을 카드 더미에 섞어 넣습니다. NL 효과가 없어지면, 버린 카드 더미에 넣습니다.",
+    "FLAVOR": "Card Image is to be made……"
+  },
+  "mon3tr:SYSLupusErythematosus": {
+    "NAME": "시스템:루푸스 홍반증",
+    "DESCRIPTION": "mon3tr:익스프레스 :적. NL 공격 받으면, 무작위 해로운 효과를 1 얻습니다.",
+    "FLAVOR": "Card Image is to be made……"
+  },
+  "mon3tr:SYSLCystineRestore": {
+    "NAME": "시스템:결정 축적",
+    "DESCRIPTION": "mon3tr:익스프레스 :적. NL 효과가 발동되거나 없어질 때, 체력의 10%를 mon3tr:결정으로 전환합니다.",
+    "FLAVOR": "Card Image is to be made……"
+  },
+  "mon3tr:SYSReperfusionInjury": {
+    "NAME": "시스템:재관류 손상",
+    "DESCRIPTION": "mon3tr:익스프레스 :적. NL 효과가 발동되면, 모든 해로운 효과를 없앱니다. 효과가 없어지면, 없어진 해로운 효과를 2배로 얻습니다.",
+    "FLAVOR": "Card Image is to be made……"
+  },
+  "mon3tr:PersonTrue": {
+    "NAME": "\"Human\"",
+    "DESCRIPTION": "Set your mon3tr:Humanity as positive. NL Gain 1 mon3tr:Humanity ."
+  },
+  "mon3tr:PersonFalse": {
+    "NAME": "\"Beast\"",
+    "DESCRIPTION": "Set your mon3tr:Humanity as negative. NL Lose 1 mon3tr:Humanity ."
+  }
+}

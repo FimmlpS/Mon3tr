@@ -1,0 +1,31 @@
+{
+  "mon3tr:GarrisonAgreement": {
+    "NAME": "Guardian Protocol",
+    "DESCRIPTIONS": [
+      "More and more terrible signs have appeared on these land. The situation is rapidly deteriorating, so that there is no spare time for we Rhodes Island. However, no matter how the situation change, we will stand together to embrace all these things at last.",
+      "\"The war has come. It not only a war between we and her, but also a war of the whole Terra, a war of everybody.”"
+    ],
+    "OPTIONS": [
+      "[Have M3 Claw] Obtain #gM3 #gArmor",
+      "[Have M3 Armor] Obtain #gM3 #gClaw",
+      "[Have both M3 Claw and M3 Armor] Obtain #gReconstrcuted #gCrystal",
+      "[Sign the protocol] Obtain a random #gM3 #grelic",
+      "[Move ahead]"
+    ]
+  },
+  "mon3tr:ACloth": {
+    "NAME": "A Cloth",
+    "DESCRIPTIONS": [
+      "The accident happends in a incomprehensibly short time, however, it is still long ennough for you to understand the cruel fact. The one who you are agaisnt is so beyond a joke——she has the privileges to control all the Originium. The Originium on Kal'tsit's on right shoulder is the evidence for her existence, but also the things which take her life away. The Originium begin to diffuse, and soon engulf all her body. Her body suddenly break into pisces and gone with wind——you even don't have enough time to catch the whole process with your eyes. NL NL The stronger you get, the weaker you became. The Long-lived person's life come to an end. She has fullfilled her promise.",
+      "There is no creature can live foever, and there is also no desprate can destroy our determination to embrace the tomorrow."
+    ],
+    "OPTIONS": [
+      "[She has proved it] Obtain #gEvidence #gof #gExistence",
+      "[She has proved it] Obtain #gEvidence #gof #gExistence #g· #gContinue",
+      "[Unexist Perspective] Upgrade all your card",
+      "[Locked] Need Evidence of Existence",
+      "[There is no other way] Obtain 10 #gReconstructed #gCrystal",
+      "[Move ahead]"
+    ]
+  }
+}

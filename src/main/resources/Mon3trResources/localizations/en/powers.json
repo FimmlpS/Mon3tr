@@ -1,0 +1,222 @@
+{
+  "mon3tr:OverloadPower": {
+    "NAME": "Overload",
+    "DESCRIPTIONS": [
+      "#rHalf #rthe #rSP #ryou #rgian #rthis #rturn. NL Draw #b",
+      " less card this turn, and consume 40 SP."
+    ]
+  },
+  "mon3tr:MeltdownPower": {
+    "NAME": "Meltdown",
+    "DESCRIPTIONS": [
+      "After you play a card, if your SP is not less than 20: gain 1 #yStrength and 1 #y Dexterity and at the end of your turn, lose that many, draw 1 card and gian 1 Energy, and then consume #b20 SP."
+    ]
+  },
+  "mon3tr:FocusPower": {
+    "NAME": "Battle Concentrate",
+    "DESCRIPTIONS": [
+      "You can only play #yattack until the end of turn. NL Your attack deal #b",
+      " % more damage.",
+      "I need to keep on attacking!"
+    ]
+  },
+  "mon3tr:MonsterPower": {
+    "NAME": "\"Monster\"",
+    "DESCRIPTIONS": [
+      "Whenever your card is #yIterated 1, the Block and damage you can gain or deal from it will be increase by #b",
+      " won't be more than #b",
+      " times as original.",
+      "正负数量的 #y人性 效果分别变为15％和10％。"
+    ]
+  },
+  "mon3tr:DeconstructionPower": {
+    "NAME": "Deconstruction",
+    "DESCRIPTIONS": [
+      "ncrease the damage you deal from attack by #b",
+      " , for each number of card fewer than 5 in your hand."
+    ]
+  },
+  "mon3tr:ProgressiveApproachPower": {
+    "NAME": "Progressive Style",
+    "DESCRIPTIONS": [
+      "After playing #b",
+      " cards, draw #b",
+      " card. Then increase the number of card you need to play by 2, until the end of this turn."
+    ]
+  },
+  "mon3tr:LockPower": {
+    "NAME": "Locked",
+    "DESCRIPTIONS": [
+      "This enemy will take extra #b",
+      "  damage from your #attack in this turn."
+    ]
+  },
+  "mon3tr:ResonancePower": {
+    "NAME": "Resonance",
+    "DESCRIPTIONS": [
+      "At the end of your turn, deal #b damage to all enemies for each enemy in combat",
+      " damage to all enemies for each enemy in combat. NL When you enter #yExtra #yTurn, increase #b",
+      " damage."
+    ]
+  },
+  "mon3tr:SelfMagnetismPower": {
+    "NAME": "Self-Magnetism",
+    "DESCRIPTIONS": [
+      "When you enter an #yExtra-Turn , you won't lose your Block ."
+    ]
+  },
+  "mon3tr:MedicineShieldPower": {
+    "NAME": "Medical Shield",
+    "DESCRIPTIONS": [
+      "Gain #b Metallicize at the start of your turn.",
+      "  Metallicize at the start of your turn."
+    ]
+  },
+  "mon3tr:DimensionalDeductionPower": {
+    "NAME": "Multidimensional Deduction",
+    "DESCRIPTIONS": [
+      "When you play a #yStrategy #ycard , add a copy of the other form of this card with Ethereal amd Exhaust into your hand, which can not switch Strategy."
+    ]
+  },
+  "mon3tr:BackTrackPower": {
+    "NAME": "Backtrack",
+    "DESCRIPTIONS": [
+      "Every time you play #b4 attack or skill, return one of the card that have highest cost and haven't been #yExhausted into your hand. NL Record:"
+    ]
+  },
+  "mon3tr:ToDustPower": {
+    "NAME": "Back to Dust",
+    "DESCRIPTIONS": [
+      "At the end of #b%1$s turns,deal #b%2$s damage to all enemies #b%3$s times.",
+      "At the end of this turn, deal #b%1$s damage to all enemies #b%2$s times."
+    ]
+  },
+  "mon3tr:ProtocolOfPsychePower": {
+    "NAME": "Psychological Protocol",
+    "DESCRIPTIONS": [
+      "At the start of your turn, lose #b",
+      " [G] , add #b",
+      " Wide Area Miracle into your hand."
+    ]
+  },
+  "mon3tr:CellActivationPower": {
+    "NAME": "Cell Activate",
+    "DESCRIPTIONS": [
+      "When removing your #yCrystal at the start of your turn, retain 33% of it and gain #b",
+      " Crystal."
+    ]
+  },
+  "mon3tr:TurbulentFlowPower": {
+    "NAME": "Turbulent Flow",
+    "DESCRIPTIONS": [
+      "Every first time when the number of your card in your hand is lower than #b4 in a turn, add random #b",
+      " Exhaust card in your hand, they cost 1 less [E]."
+    ]
+  },
+  "mon3tr:NeverTherePower": {
+    "NAME": "Never Been Away",
+    "DESCRIPTIONS": [
+      "You still need to deal unblocked #yattack damage for #b",
+      " times, to equally allocate #b ",
+      " #yCrystal to all entities ."
+    ]
+  },
+  "mon3tr:CrystalOverloadPower": {
+    "NAME": "Crystal Overload",
+    "DESCRIPTIONS": [
+      "At the end of #renemy's turn, you lose #b",
+      " HP."
+    ]
+  },
+  "mon3tr:CrystalPower": {
+    "NAME": "Crystal",
+    "DESCRIPTIONS": [
+      "When attacked, deal #b",
+      " damage to all enemies, then decreased by #b",
+      " (Equals to 20% of the #yCrystal , round up). NL At the start of the turn, remove the #yCrystal and let #y",
+      " gain #b",
+      " Block."
+    ]
+  },
+  "mon3tr:DiscordCrystalPower": {
+    "NAME": "Disorder Crystal",
+    "DESCRIPTIONS": [
+      "#rwon't #rbe #rremoved . NL When gain buff or lose debuff, gaim #b",
+      "  #yCrystal ."
+    ]
+  },
+  "mon3tr:FateReflowPower": {
+    "NAME": "Fate Backflow",
+    "DESCRIPTIONS": [
+      "When enemy is attacked, lose #b",
+      "% HP as the damage."
+    ]
+  },
+
+  "mon3tr:CountryPower": {
+    "NAME": "Dominions",
+    "DESCRIPTIONS": [
+      "At the end of turn, add #b",
+      " #yBlack #ySnow to your discard pile. NL NL Each un-Exhaust #yBlack #ySnow will increase the attack of Pursuer by #b2, and decrease its HP-Loss by #b1."
+    ]
+  },
+  "mon3tr:AltCountryPower": {
+    "NAME": "Reverse Collapse",
+    "DESCRIPTIONS": [
+      "When Pursuer would die, if there is un-Exhaust #yBlack #ySnow, exhaust one and heal to #b",
+      " HP instead."
+    ]
+  },
+  "mon3tr:MoreCollapsePower": {
+    "NAME": "Progressive Collapse",
+    "DESCRIPTIONS": [
+      "When Pursuer would die, reborn in the next turn, and each un-Exhaust #yBlack #ySnow will increase the max HP."
+    ]
+  },
+  "mon3tr:ScarePower": {
+    "NAME": "Scare",
+    "DESCRIPTIONS": [
+      "Increase the cost of next card you draw by #b",
+      " ."
+    ]
+  },
+  "mon3tr:DetectPower": {
+    "NAME": "Guided Evolution",
+    "DESCRIPTIONS": [
+      "Bear #b80% of the damage taken by other enemies. when #yInvincible turns to 0, add a #yCage #yOf #yPersonality to your hand, then render this effect ineffective until the end of the round."
+    ]
+  },
+  "mon3tr:DustReleasePower": {
+    "NAME": "Toxic Cloud Release",
+    "DESCRIPTIONS": [
+      "Whenever 20% of maximum HP is lost, gain 20 Block, and gain 2 #yToxic which won't combain with buff with the same name.",
+      "Whenever 20% of maximum HP is lost, gain 30 Block, and gain 3 #yToxic which won't combain with buff with the same name.",
+      "Toxic Cloud Release+",
+      "Whenever 20% of maximum HP is lost, gain 20 Block, and gain 2 #yToxic+ which won't combain with buff with the same name.",
+      "Whenever 20% of maximum HP is lost, gain 30 Block, and gain 3 #yToxic+ which won't combain with buff with the same name."
+    ]
+  },
+  "mon3tr:ToxicPower": {
+    "NAME": "Toxic",
+    "DESCRIPTIONS": [
+      "Whenever the player gain Block, let him lose 1 Block, and let the Singer's next attack deal #b1 additional damage.",
+      "Toxic+",
+      "Whenever the player gain Block, let him lose 2 Block, and let the Singer's next attack deal #b1 additional damage."
+    ]
+  },
+  "mon3tr:SleepPower": {
+    "NAME": "Dormant",
+    "DESCRIPTIONS": [
+      "When die for the first time, heal 25% of the maximum HP, gain 3 #yIntangible and summon #bSpecial #bEnemies , Before Intangible end #ror special enemies die, gain #yRegan equals to 25% of the Max HP ."
+    ]
+  },
+  "mon3tr:LiveBloodPower":{
+    "NAME": "Blood of Dyings",
+    "DESCRIPTIONS": [
+      "Whenever attack, lose 10% of the Max HP.",
+      "Whenever attack, lose 10% of the Max HP , and gain #b2 Strength .",
+      "Whenever attack, lose 15% of the Max HP, and gain Block equals to 5% of the Max HP.",
+      "Whenever attack, lose 15% of the Max HP, gain Block equals to 5% of the Max HP, and gain #b2 Strength ."
+    ]
+  }
+}

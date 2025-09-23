@@ -1,0 +1,29 @@
+{
+  "mon3tr:TheShadow": {
+    "NAME": "Reproduce: A Walk in the Dust",
+    "DESCRIPTIONS": [
+      "Defeat \"Emperor's Blade\", Pursuer. NL He once ravaged the demons of the Northern Tundra, segregating the outsiders beyond the reach of civilization; His blade shies not from royals nor nobles, safeguarding glory from the dusts of rebellion. Every Royal Guard is as a dominion; the land beneath their feet is all the territory of Ursus."
+    ]
+  },
+  "mon3tr:TheSophontheatrum": {
+    "NAME": "Reproduce: Path of Life",
+    "DESCRIPTIONS": [
+      "Defeat Mártus, \"Seaborn\". NL Sage, traitor, hero, villain. The many identities of Mártus are inherently contradictory, but he considers himself only \"Seaborn.\" The ocean belonged to Ægir, until Mártus made it the nutrient for new life, and from its blue depths sprang the children of the sea."
+    ]
+  },
+  "mon3tr:TheLight": {
+    "NAME": "Reproduce:Roaring Flare",
+    "DESCRIPTIONS": [
+      "Defeat Mephisto, \"The Singer\" . NL You seem to recognize the mysterious, mythical beast that has descended from the Sarcophagus. An otherworldly song flows from its sharp beak and floods its surroundings. It seems to devour the will of the Infected around it, including its own. Even if it knows not what it is doing, its song does not cease. It simply wishes to sing."
+    ]
+  },
+  "mon3tr:HardSelections": {
+    "NAME": "HAHA",
+    "DESCRIPTIONS": [
+      "Overload",
+      "Clear the stage in #rOverload #rStatus. NL Now there is more and more things that Mon3tr need to face alone, so that it is not a wise choice to be Overload from time to time.",
+      "Lack S.P",
+      "Clear the stage while #rLacking #rS.P . NL Any tiny error can lead to Irreversible consequences."
+    ]
+  }
+}

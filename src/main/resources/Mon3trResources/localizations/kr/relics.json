@@ -1,0 +1,172 @@
+{
+  "mon3tr:Mon2tr": {
+    "NAME": "반복의 증거",
+    "FLAVOR": "결정이 진동 속에서 다시 모여들며, 당신은 미완성된 사명을 다시금 이어가게 될 것입니다.",
+    "DESCRIPTIONS": [
+      "전투 시작 시, #b2 장의 카드를 추가로 뽑고 [E] 를 얻습니다. NL 그 다음 두 번의 턴 동안 #b1 장의 카드를 덜 뽑습니다."
+    ]
+  },
+  "mon3tr:Mon3trR": {
+    "NAME": "반복의 증거 · 계속",
+    "FLAVOR": "미완성된 사명이 다시금 이어지며, 떠난 이들은 사라져가는 순간에도 미래를 바라봅니다.",
+    "DESCRIPTIONS": [
+      "매 전투의 첫 턴에만, 손에 있는 카드를 보존합니다."
+    ]
+  },
+  "mon3tr:ModuleOverclock": {
+    "NAME": "모듈：오버클럭",
+    "FLAVOR": "주 목표 주파수 증폭기 활성화……",
+    "DESCRIPTIONS": [
+      "#ymon3tr:엑스트라 #y턴에 진입하면, #b2 장의 카드를 뽑습니다."
+    ]
+  },
+  "mon3tr:ModuleRecycle": {
+    "NAME": "모듈：집속 에너지 회수",
+    "FLAVOR": "주 목표 집속 에너지 증폭기 활성화……",
+    "DESCRIPTIONS": [
+      "#ymon3tr:엑스트라 #y턴에 진입하면, [E] 를 얻습니다."
+    ]
+  },
+  "mon3tr:MainModuleRecycle": {
+    "NAME": "메인 모듈：집속 에너지 회수",
+    "FLAVOR": "주 목표 과잉 에너지 회수 변환기 배치……",
+    "DESCRIPTIONS": [
+      "#ymon3tr:엑스트라 #y턴에 진입하면, #b1 장의 카드를 뽑고 지난 턴에 남은 [E] 만큼 [E] 를 얻습니다(최대치를 초과할 수 없음)."
+    ]
+  },
+  "mon3tr:ModuleTarget": {
+    "NAME": "모듈：표적 복구",
+    "FLAVOR": "주 목표 표적 약물 공급 장치 활성화……",
+    "DESCRIPTIONS": [
+      "#ymon3tr:엑스트라 #y턴에 진입하면, #y방어도를 #b8 얻습니다."
+    ]
+  },
+  "mon3tr:ModuleReceptor": {
+    "NAME": "모듈：수용체 자극",
+    "FLAVOR": "주 목표 수용체 호르몬 보충제 활성화……",
+    "DESCRIPTIONS": [
+      "#ymon3tr:엑스트라 #y턴에 진입하면, 턴을 종료할 때까지 #y힘 #y민첩을 #b3 얻습니다."
+    ]
+  },
+  "mon3tr:MainModuleHelp": {
+    "NAME": "메인 모듈：전장 지원",
+    "FLAVOR": "주요 목표 전장 지원 드론 배치……",
+    "DESCRIPTIONS": [
+      "#ymon3tr:엑스트라 #y턴 에 진입하면, 적 전체에게 #y약화와 #y취약을 1 부여합니다."
+    ]
+  },
+  "mon3tr:DeviceResonance": {
+    "NAME": "장비：공명 외장",
+    "FLAVOR": "공명 외장 활성화, 모니터링 유지……",
+    "DESCRIPTIONS": [
+      "턴 종료 시, 이번 턴에 #y공격받은 적 한 명당, 적 전체에게 피해를 #b3 줍니다."
+    ]
+  },
+  "mon3tr:DeviceHardness": {
+    "NAME": "장비：방어 외장",
+    "FLAVOR": "방어 외장 활성화, 방어 태세 유지……",
+    "DESCRIPTIONS": [
+      "매 턴 처음으로 방어도가 부서지면, #y방어도를 #b12 얻습니다."
+    ]
+  },
+  "mon3tr:ModuleFast": {
+    "NAME": "모듈：급속 충전",
+    "FLAVOR": "주 목표 단계적 에너지 변환 반복기 활성화……",
+    "DESCRIPTIONS": [
+      "매 턴 처음으로 사용하는 카드의 #ymon3tr:반복 횟수가 추가로 2 증가합니다."
+    ]
+  },
+  "mon3tr:ModulePrepare": {
+    "NAME": "모듈：사전 준비",
+    "FLAVOR": "주 목표 기본 기능 반복기 활성화……",
+    "DESCRIPTIONS": [
+      "전투 시작 시, 모든 카드의 #ymon3tr:반복 횟수가 #b1 증가합니다(단, 이 효과로는 #ymon3tr:SP 를 얻을 수 없음)."
+    ]
+  },
+  "mon3tr:MainModuleDetect": {
+    "NAME": "메인 모듈：광학 조준",
+    "FLAVOR": "주 목표 광측정기 전개 중……",
+    "DESCRIPTIONS": [
+      "#y공격 카드를 사용 할 때마다, 손에 있는 무작위 #y스킬 카드의 #ymon3tr:반복 횟수가 #b1 증가합니다."
+    ]
+  },
+  "mon3tr:ModuleRadiate": {
+    "NAME": "모듈：에너지 정유",
+    "FLAVOR": "주 목표 결정에 에너지 정유 주입 중……",
+    "DESCRIPTIONS": [
+      "#ymon3tr:결정을 얻거나 부여할 때마다, #ymon3tr:결정을 #b1 추가로 부여합니다."
+    ]
+  },
+  "mon3tr:ModuleRecover": {
+    "NAME": "모듈：재생 정유",
+    "FLAVOR": "주 목표 세포 재생 정유 투입 중……",
+    "DESCRIPTIONS": [
+      "피해를 입을 때마다, #ymon3tr:결정을 #b2 얻습니다."
+    ]
+  },
+  "mon3tr:MainModuleColdness": {
+    "NAME": "메인 모듈：급냉 스프레이",
+    "FLAVOR": "주 목표 분사식 냉각 장치 배치 중……",
+    "DESCRIPTIONS": [
+      "전투 시작 시, 적 전체에게 #ymon3tr:무질서 #y결정을 #b1 부여합니다."
+    ]
+  },
+  "mon3tr:M3LZ": {
+    "NAME": "M3 발톱",
+    "FLAVOR": "\"Mon3tr, 당신의 손, 부드러워.\" ——로즈몬티스",
+    "DESCRIPTIONS": [
+      "적을 공격할 때마다, #ymon3tr:SP 1 을 얻습니다. NL #yM3 #y갑옷을 보유 중이라면, 적을 처치할 때마다, #ySP 20 을 얻습니다."
+    ]
+  },
+  "mon3tr:M3HJ": {
+    "NAME": "M3 갑옷",
+    "FLAVOR": "\"Mon3tr! 오늘 훈련실에서 보자! 둘 중 누가 쓰러지기 전까진 집에 못 갈 줄 알라구!\" ———블레이즈",
+    "DESCRIPTIONS": [
+      "피해를 입을 때마다, #y방어도를 2 얻습니다. NL #yM3 #y발톱을 보유 중이라면, 사망 시 #ymon3tr:SP 40을 소모하고 체력을 20 회복합니다."
+    ]
+  },
+
+  "mon3tr:SpecialSeal": {
+    "NAME": "Mon3tr의 특별 한정 배지",
+    "FLAVOR": "특수 작전 허가 요청 중…… 권한 확인 완료 ——Mon3tr—— 전투 제한 해제 허가됨",
+    "DESCRIPTIONS": [
+      "최대 #ymon3tr:SP 가 #b100으로 증가합니다. NL 매 턴마다 SP를 #b10 얻습니다."
+    ]
+  },
+  "mon3tr:RephaseEnantiomer": {
+    "NAME": "복합 위상 반사기",
+    "FLAVOR": "아직 실험 단계에 있는 신소재로, 고출력 에너지를 견디는 것은 물론, 아츠에 스스로 적응하는 특성을 지녔습니다.",
+    "DESCRIPTIONS": [
+      "막히지 않은 공격 피해를 누적 10 입힐 때마다, #y방어도를 #b2 얻습니다 . NL #ymon3tr:엑스트라 #y턴이라면, #y방어도를 #b4 얻습니다."
+    ]
+  },
+  "mon3tr:Remainings": {
+    "NAME": "잔재",
+    "FLAVOR": "오리지늄은 이미 대지와 동화되었고, 내면의 우주는 현실로 드러나고 있습니다. 그녀는 이름만을 남긴 채 모든 희망을 인간에게 걸었고, 그녀의 사명은 곧 칼날이 될 것입니다.",
+    "DESCRIPTIONS": [
+      "매 턴 처음으로 카드를 사용할 때, [E] 를 얻습니다. #ymon3tr:엑스트라 #y턴이라면 모든 손에 있는 카드를 #y강화합니다."
+    ]
+  },
+
+  "mon3tr:BadOrganization": {
+    "NAME": "퇴화된 조직",
+    "FLAVOR": "사미 북쪽 끝없는 빙원에서 발견된, 매우 오래된 치밀한 결합 조직. Mon3tr의 기억 장면을 재현하는 데 사용된다.",
+    "DESCRIPTIONS": [
+      "#y? #y막 또는 #ymon3tr:시뮬레이션 #y영역이 종료되면, #y시뮬레이션 #y영역:제국의 #y그림자처럼으로 #y진입합니다. NL #r재구성 불가."
+    ]
+  },
+  "mon3tr:GeneSeed": {
+    "NAME": "양육자의 유전자 씨앗",
+    "FLAVOR": "집단 진화는 개체의 돌연변이에 의해 추진되고, 개체의 문제는 집단의 지혜로 해결된다. Mon3tr의 기억 장면을 재현하는 데 사용된다.",
+    "DESCRIPTIONS": [
+      "#y? #y막 또는 #ymon3tr:시뮬레이션 #y영역이 종료되면, #y시뮬레이션 #y영역:마르투스의 #y투기장으로 진입합니다. NL #r재구성 불가."
+    ]
+  },
+  "mon3tr:LiveDust": {
+    "NAME": "활성 먼지",
+    "FLAVOR": "테라의 오리지늄 산업 생산에서 발생하는 폐기물로, 매우 위험하니 반드시 적절히 처리해야 한다. Mon3tr의 기억 장면 재현에 사용된다.",
+    "DESCRIPTIONS": [
+      "#y? #y막 또는 #ymon3tr:시뮬레이션 #y영역이 종료되면, #y시뮬레이션 #y영역:소생, #y떠오른 #y꿈나라에서의로 진입합니다. NL #r재구성 불가."
+    ]
+  }
+}

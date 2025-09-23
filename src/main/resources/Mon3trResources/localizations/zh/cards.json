@@ -1,0 +1,615 @@
+{
+  "mon3tr:Strike": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "mon3tr:Defend": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点 格挡 。"
+  },
+  "mon3tr:Core": {
+    "NAME": "心核",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 此牌每提升1点 mon3tr:迭代 计数时，你获得 !M! 层 mon3tr:晶核 。"
+  },
+  "mon3tr:Unstoppable": {
+    "NAME": "未竟",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 手牌数每比上限少1张，额外造成 !M! 点伤害。"
+  },
+
+  "mon3tr:CrystalDiffusion": {
+    "NAME": "晶核扩散",
+    "DESCRIPTION": "随机造成 !D! 点伤害3次。 NL 给予所有受到攻击的敌人 !M! 层 mon3tr:晶核 。"
+  },
+  "mon3tr:RebuildFate": {
+    "NAME": "重塑命运",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 将牌堆中 mon3tr:迭代 计数最高的 !M! 张牌放入手中。"
+  },
+  "mon3tr:PrepareMedicine": {
+    "NAME": "医疗器具准备",
+    "DESCRIPTION": "获得1层 mon3tr:人性 。 NL 在下一回合获得 !M! 点 格挡 。"
+  },
+  "mon3tr:Redirect": {
+    "NAME": "重定向",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将弃牌堆的一张牌放到抽牌堆顶，下次抽到它时再抽1张牌。"
+  },
+  "mon3tr:LullabyOfDeath": {
+    "NAME": "致逝者的摇篮曲",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 随机增加手牌的 mon3tr:迭代 计数，总计 !M! 点。"
+  },
+  "mon3tr:StrategyLock": {
+    "NAME": "目标锁定",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 你本回合攻击该目标时，附加 !M! 点攻击伤害。"
+  },
+  "mon3tr:IntoTheMarrow": {
+    "NAME": "刻骨入髓",
+    "DESCRIPTION": "mon3tr:一次性 ，无法升级。  NL 选择一名敌人。 NL 使所有敌人失去等同其最大生命 !M! ％的生命。",
+    "EXTENDED_DESCRIPTION": [
+      "（失去 !D! 点生命） NL "
+    ]
+  },
+  "mon3tr:Mesh": {
+    "NAME": "啮合",
+    "DESCRIPTION": "抽 !M! 张牌。 NL 丢弃其中 mon3tr:迭代 计数低于此牌的牌。"
+  },
+  "mon3tr:OrganizeSample": {
+    "NAME": "组织采样",
+    "DESCRIPTION": "抽 !M! 张牌。 NL mon3tr:转录 一张手牌。"
+  },
+  "mon3tr:CrackStrike": {
+    "NAME": "撕裂打击",
+    "DESCRIPTION": "随机造成 !D! 点伤害2次。 NL 失去2层 mon3tr:人性 。"
+  },
+  "mon3tr:WeaveBlock": {
+    "NAME": "策略：迂回攻击",
+    "DESCRIPTION": "对各敌人造成 !D! 点伤害。 NL 进入 mon3tr:额外回合 时，将此牌从牌堆放回手牌。",
+    "EXTENDED_DESCRIPTION": [
+      "策略：双重迂回",
+      "造成 !D! 点伤害2次。 NL 进入 mon3tr:额外回合 时，将此牌从牌堆放回手牌。"
+    ]
+  },
+  "mon3tr:StrategyTree": {
+    "NAME": "策略：生成树",
+    "DESCRIPTION": "抽 !M! 张牌。 NL 下一回合获得 [E] 。",
+    "EXTENDED_DESCRIPTION": [
+      "策略：倒置树影",
+      "获得 [E] 。 NL 下一回合多抽 !M! 张牌。"
+    ]
+  },
+  "mon3tr:DustToDust": {
+    "NAME": "尘归尘",
+    "DESCRIPTION": " 消耗 。 NL 在X回合结束后，对所有敌人造成 !M! X点伤害X次。"
+  },
+  "mon3tr:SharpGash": {
+    "NAME": "利爪击",
+    "DESCRIPTION": " mon3tr:演化 1：零耗能攻击牌。 NL 造成 !D! 点伤害。 NL 每 mon3tr:迭代 1次，额外造成 !M! 点伤害。"
+  },
+  "mon3tr:CrippleStrike": {
+    "NAME": "致损打击",
+    "DESCRIPTION": " mon3tr:技力消耗 (8) NL 造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。",
+    "EXTENDED_DESCRIPTION": [
+      "我需要至少",
+      "点技力"
+    ]
+  },
+  "mon3tr:Calcite": {
+    "NAME": "方解",
+    "DESCRIPTION": " mon3tr:技力消耗 ( !M! ) NL 获得 !B! 点 格挡 。 NL 打出后使技力消耗和格挡值翻倍。",
+    "EXTENDED_DESCRIPTION": [
+      "我需要至少",
+      "点技力"
+    ]
+  },
+  "mon3tr:ShiningTogether": {
+    "NAME": "相映生辉",
+    "DESCRIPTION": " mon3tr:演化 !M! ：每回合首张牌. NL 造成 !D! 点伤害。 NL 触发 *演化 时，提升此牌与来源各 !M! 点攻击值。"
+  },
+  "mon3tr:FadeAndGrow": {
+    "NAME": "此消彼长",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 未被 格挡 的伤害将随机增加手牌的 mon3tr:迭代 计数。"
+  },
+  "mon3tr:EndingOfMemory": {
+    "NAME": "记忆的终点",
+    "DESCRIPTION": "不能被打出 。 NL 回合结束时若在手牌 *最右侧 ，选择一张本回合打出过的牌以打出。",
+    "UPGRADE_DESCRIPTION": "不能被打出 。 NL 回合结束时若在手牌 *两侧 ，选择一张本回合打出过的牌以打出。"
+  },
+  "mon3tr:StructureGuidance": {
+    "NAME": "构造形态引导",
+    "DESCRIPTION": "触发你的 *金属化 。 NL 每增加2点 mon3tr:迭代 计数，你获得1层 *金属化 。",
+    "UPGRADE_DESCRIPTION": "触发你的回合结束能力。 NL 每增加2点 mon3tr:迭代 计数，你获得1层 *金属化 。"
+  },
+  "mon3tr:Subspace": {
+    "NAME": "子空间",
+    "DESCRIPTION": "给予 !M! 层 mon3tr:晶核 。 NL 进入 mon3tr:额外回合 时，将此牌从牌堆放回手牌。"
+  },
+
+
+  "mon3tr:BattleFocus": {
+    "NAME": "战斗集中",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 直到回合结束，你每打出一张攻击牌就失去1层 mon3tr:人性 。"
+  },
+  "mon3tr:ExistInNameOnly": {
+    "NAME": "形同虚设",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 再造成 !D! 点伤害，若与上一次伤害量不同，重复此过程。"
+  },
+  "mon3tr:DensificationBody": {
+    "NAME": "机体致密化",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 你拥有的 mon3tr:晶核 层数会增加此牌的格挡。"
+  },
+  "mon3tr:NewLive": {
+    "NAME": "新生",
+    "DESCRIPTION": " 消耗 一张手牌。 NL 获得等同其耗能的 mon3tr:人性 。"
+  },
+  "mon3tr:DeconstructToChaos": {
+    "NAME": "对混沌世界的解构",
+    "DESCRIPTION": "你的手牌数每与5相差1，你从卡牌造成的伤害提升 !M! 点。"
+  },
+  "mon3tr:ProgressiveApproach": {
+    "NAME": "递进式",
+    "DESCRIPTION": "你每打出1张牌，抽1张牌。然后直到回合结束，所需出牌数+2。"
+  },
+  "mon3tr:IterationAcceleration": {
+    "NAME": "迭代加速",
+    "DESCRIPTION": "使所有牌获得 !M! 点 mon3tr:迭代 计数。"
+  },
+  "mon3tr:InverseQuantization": {
+    "NAME": "反量化",
+    "DESCRIPTION": "造成 !D! 点伤害3次。 NL 将目标至多 !M! 点 力量 转移到你身上。 "
+  },
+  "mon3tr:StrategyFocus": {
+    "NAME": "策略：聚焦",
+    "DESCRIPTION": "丢弃任意张手牌。 NL 使剩余手牌获得等同丢弃数量的 mon3tr:迭代 计数。",
+    "UPGRADE_DESCRIPTION": "丢弃任意张手牌。 NL 使剩余手牌获得等同丢弃数量+1的 mon3tr:迭代 计数。",
+    "EXTENDED_DESCRIPTION": [
+      "策略：再生",
+      "丢弃任意张手牌。 NL 抽等量+ !M! 张牌。"
+    ]
+  },
+  "mon3tr:TimeInsight": {
+    "NAME": "洞见岁月",
+    "DESCRIPTION": "抽 !M! 张牌。 NL 每增加3点 mon3tr:迭代 计数，将 *时光洞见 洗入抽牌堆。",
+    "UPGRADE_DESCRIPTION": "抽 !M! 张牌。 NL 每增加3点 mon3tr:迭代 计数，将 *时光洞见+ 洗入抽牌堆。"
+  },
+  "mon3tr:DimensionMiracle": {
+    "NAME": "奇迹维度",
+    "DESCRIPTION": "获得 [E] 。 NL 每增加3点 mon3tr:迭代 计数，将 *广域奇迹 放入手中。",
+    "UPGRADE_DESCRIPTION": "获得 [E] 。 NL 每增加3点 mon3tr:迭代 计数，将 *广域奇迹+ 放入手中。"
+  },
+  "mon3tr:StrategyFollowUp": {
+    "NAME": "策略：追击",
+    "DESCRIPTION": "对本回合所有受到攻击的敌人造成 !D! 点伤害。",
+    "EXTENDED_DESCRIPTION": [
+      "策略：伏击",
+      "对本回合所有 *未 受到攻击的敌人造成 !D! 点伤害。"
+    ]
+  },
+  "mon3tr:InDustOrBlood": {
+    "NAME": "在尘或血中",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 目标生命每比生命上限低20％，向手牌增加一张 *记忆碎片 。"
+  },
+  "mon3tr:CriticalPoint": {
+    "NAME": "临界点",
+    "DESCRIPTION": "消耗 。 NL 消耗并 mon3tr:转录 至多 !M! 张手牌。"
+  },
+  "mon3tr:InformationSkim": {
+    "NAME": "信息检索",
+    "DESCRIPTION": "消耗 。 NL 交替将共计X张 *时光洞见 和 *广域奇迹 放入手中。",
+    "UPGRADE_DESCRIPTION": "消耗 。 NL 交替将共计X+1张 *时光洞见 和 *广域奇迹 放入手中。"
+  },
+  "mon3tr:TimeSand": {
+    "NAME": "时间沙砾",
+    "DESCRIPTION": "保留 。 NL 造成 !D! 点伤害 !M! 次。 NL *保留时 ：攻击次数+1并获得2点 mon3tr:迭代 计数。"
+  },
+  "mon3tr:Resonance": {
+    "NAME": "共振",
+    "DESCRIPTION": "在你回合结束每有一名敌人，对所有敌人造成 !M! 点伤害。进入 mon3tr:额外回合 时提升1点。"
+  },
+  "mon3tr:MedicineShield": {
+    "NAME": "自增型医疗护盾",
+    "DESCRIPTION": "获得 !M! 层 金属化 。 NL 在你的回合开始时，获得1层 金属化 。"
+  },
+  "mon3tr:CanGetBack": {
+    "NAME": "得以重回",
+    "DESCRIPTION": "失去 !M! 层 mon3tr:人性 。 NL 在你回合结束时若在手中，获得 !M! 层 mon3tr:人性 。"
+  },
+  "mon3tr:StarWeb": {
+    "NAME": "星络",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 随机打出抽牌堆中的一张 *星络 。 NL *抽到时 ：复制到抽牌堆。"
+  },
+  "mon3tr:ProtocolOfPsyche": {
+    "NAME": "心灵规约",
+    "DESCRIPTION": "在你回合开始时失去 !M! [E] ，将 !M! 张 *广域奇迹 放入手中。"
+  },
+  "mon3tr:HotShock": {
+    "NAME": "热休克反应",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 失去 [E] 并 mon3tr:转录 此牌。 NL 在 mon3tr:额外回合 生效2次。"
+  },
+  "mon3tr:PolishClaws": {
+    "NAME": "护甲刻印",
+    "DESCRIPTION": " 消耗 。 NL mon3tr:演化 1：攻击牌 。 NL 每有1点 mon3tr:迭代 计数，获得1层 多层护甲 。 NL （至多获得 !M! 层）",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL mon3tr:演化 1：非技能牌 。 NL 每有1点 mon3tr:迭代 计数，获得1层 多层护甲 。 NL （至多获得8层）"
+  },
+  "mon3tr:IsolationClearance": {
+    "NAME": "隔离净空",
+    "DESCRIPTION": "获得 !M! 点 力量 和 敏捷 直到你的 mon3tr:额外回合 结束。"
+  },
+  "mon3tr:IntenseCrystalCracking": {
+    "NAME": "烈性晶核裂化",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL mon3tr:技力消耗 （抽/弃牌堆牌数差）：每有3张额外造成1次伤害。",
+    "EXTENDED_DESCRIPTION": [
+      "我需要至少",
+      "点技力"
+    ]
+  },
+  "mon3tr:CellActivation": {
+    "NAME": "细胞活化",
+    "DESCRIPTION": "你回合开始移除 mon3tr:晶核 时，保留33％的层数，并获得 !M! 层 mon3tr:晶核 。"
+  },
+  "mon3tr:TurbulentFlow": {
+    "NAME": "脉络紊流化",
+    "DESCRIPTION": "手牌数每回合首次低于4张时，将 !M! 张 消耗 的随机牌放入手中，使其耗能-1。"
+  },
+  "mon3tr:AnotherHand": {
+    "NAME": "多“手”准备",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 从牌堆随机5张攻击牌选择 !M! 张放入手中。"
+  },
+  "mon3tr:SorryForYou": {
+    "NAME": "“抱歉，太用力了”",
+    "DESCRIPTION": "造成 !D! 点伤害X次。 NL 若目标敌人因此死亡，将 [E] 回复至上限。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害X+1次。 NL 若目标敌人因此死亡，将 [E] 回复至上限。",
+    "FLAVOR": "医疗部的干员们望着战场中央的Mon3tr，猜测着她的笑容究竟为谁而做。"
+  },
+  "mon3tr:RuinAndCure": {
+    "NAME": "毁灭，同是治愈",
+    "DESCRIPTION": " 消耗 。 NL 造成 !D! 点伤害。 NL 未被 格挡 的伤害将回复你的生命。"
+  },
+  "mon3tr:EndingOfCirculation": {
+    "NAME": "轮回的终结",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 伤害和格挡类效果在此牌生效2次。"
+  },
+  "mon3tr:MakeNoAllowance": {
+    "NAME": "不留余地",
+    "DESCRIPTION": "消耗 。 NL 使目标失去所有 力量 。 NL *抽到时 ：使所有单位获得 !M! 点 力量 。"
+  },
+  "mon3tr:FateReflow": {
+    "NAME": "命运回流",
+    "DESCRIPTION": " 消耗 。 NL 选择一名敌人。 NL 每当有敌人受到伤害时，使被选择敌人失去伤害量25％的生命。",
+    "FLAVOR": "卡图制作中……"
+  },
+  "mon3tr:Hedge": {
+    "NAME": "不置可否",
+    "DESCRIPTION": "消耗 。 NL 将你当前的 格挡 翻倍。 NL 抽到时所有单位均分 !M! 点 格挡 。",
+    "FLAVOR": "已弃用"
+  },
+  "mon3tr:CoverMeInDebris": {
+    "NAME": "残骸裹身",
+    "DESCRIPTION": "消耗 。 NL 获得 !M! 层 mon3tr:晶核 。 mon3tr:技力消耗 (8)：若已消耗，右击以放回手中。"
+  },
+  "mon3tr:CrystalEntity": {
+    "NAME": "晶核具象化",
+    "DESCRIPTION": "mon3tr:同轴迭代 。 NL mon3tr:演化 1：能力牌。 NL 每增加3点 mon3tr:迭代 计数，对所有敌人造成 !M! 点伤害。"
+  },
+
+  "mon3tr:NamedMonster": {
+    "NAME": "名为“怪物”",
+    "DESCRIPTION": "获得 !M! 层 mon3tr:人性 。 NL 正负数量的 mon3tr:人性 效果分别变为10％和15％。",
+    "EXTENDED_DESCRIPTION": [
+      "你的牌每 mon3tr:迭代 1，你从中获得的 格挡 或造成的伤害提升 !M! 点。 NL （不超过原本的 !M! 倍）"
+    ]
+  },
+  "mon3tr:NoLongerSung": {
+    "NAME": "不再传颂之物",
+    "DESCRIPTION": " mon3tr:演化 1：任意牌。 NL 造成 !D! 点 伤害 。 NL 每 mon3tr:迭代 1次，降低 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": " mon3tr:演化 1：任意牌。 NL 造成 !D! 点 伤害 。 NL 每 mon3tr:迭代 1次，提升 !M! 点伤害。",
+    "FLAVOR": "Utawarerumono",
+    "EXTENDED_DESCRIPTION": [
+      "传颂之物"
+    ]
+  },
+  "mon3tr:StrategyOverpressureLink": {
+    "NAME": "策略：超压链接",
+    "DESCRIPTION": "保留 。 NL 右击此牌以切换 *策略 ，并抽 !M! 张牌。",
+    "EXTENDED_DESCRIPTION": [
+      "策略：负压链接",
+      "保留 。 NL 手牌不少于 !M! 张时，右击此牌以切换 *策略 ，并丢弃 !M! 张手牌。"
+    ]
+  },
+  "mon3tr:CircularTwins": {
+    "NAME": "循环双生",
+    "DESCRIPTION": "将 *自过往之人 放入手中 NL 将 *于此时之人 放入手中。",
+    "UPGRADE_DESCRIPTION": "将 *自过往之人 放入手中 NL 将 *于此时之人 放入手中。"
+  },
+  "mon3tr:ShatteredEcho": {
+    "NAME": "破碎回响",
+    "DESCRIPTION": "mon3tr:演化 !M! ：状态牌 。 NL 造成 !D! 点伤害。 NL 清空 mon3tr:迭代 计数，对目标打出等量张 *记忆碎片 。",
+    "UPGRADE_DESCRIPTION": "mon3tr:演化 !M! ：状态牌 。 NL 造成 !D! 点伤害。 NL 清空 mon3tr:迭代 计数，对目标打出等量张 *记忆碎片+ 。"
+  },
+  "mon3tr:ChangesByDegree": {
+    "NAME": "趋同性递变",
+    "DESCRIPTION": " 消耗 。 NL 丢弃任意张手牌。 NL 若这些牌耗能相同， mon3tr:转录 它们。",
+    "UPGRADE_DESCRIPTION": " 消耗 。 NL 丢弃任意张手牌。 NL 若这些牌耗能相同或各不相同， mon3tr:转录 它们。",
+    "EXTENDED_DESCRIPTION": [
+      "双曲螺旋递变"
+    ]
+  },
+  "mon3tr:SelfMagnetism": {
+    "NAME": "自磁",
+    "DESCRIPTION": "进入 mon3tr:额外回合 时，你不再失去 格挡 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 进入 mon3tr:额外回合 时，你不再失去 格挡 。"
+  },
+  "mon3tr:DimensionalDeduction": {
+    "NAME": "多维度演绎",
+    "DESCRIPTION": "你打出 mon3tr:策略牌 时，将其另一形态复制到手中。该复制具有 虚无 和 消耗 属性，且不能切换策略。"
+  },
+  "mon3tr:BackTrack": {
+    "NAME": "回溯",
+    "DESCRIPTION": "你每打出4张攻击或技能牌，将其中耗能最高的一张未 消耗 牌放回手中。"
+  },
+  "mon3tr:MutualExclusion": {
+    "NAME": "互斥表征",
+    "DESCRIPTION": "给予 !M! 层 mon3tr:晶核 。 NL 给予 !M! 层 mon3tr:失序晶核 。"
+  },
+  "mon3tr:ReverseHalfLife": {
+    "NAME": "逆半衰期",
+    "DESCRIPTION": "翻倍目标的 mon3tr:晶核 层数。 NL 造成 !D! 点伤害。"
+  },
+  "mon3tr:PastEndsFuture": {
+    "NAME": "过去与未来的终点",
+    "DESCRIPTION": "消耗 。 NL 选择一张手牌： NL 在你回合开始时，将其从牌堆抽到手中。",
+    "UPGRADE_DESCRIPTION": "保留 ， 消耗 。 NL 选择一张手牌： NL 在你回合开始时，将其从牌堆抽到手中。"
+  },
+  "mon3tr:EternityMissesPresent": {
+    "NAME": "永恒与此刻的误差",
+    "DESCRIPTION": "消耗 。 NL 选择一张手牌： NL 每当其增加 mon3tr:迭代 计数时，额外增加2点。",
+    "UPGRADE_DESCRIPTION": "保留 ， 消耗 。 NL 选择一张手牌： NL 每当其增加 mon3tr:迭代 计数时，额外增加2点。"
+  },
+  "mon3tr:AssaultCommand":{
+    "NAME": "突袭指令",
+    "DESCRIPTION": "消耗 。 NL 回复 !M! 点 mon3tr:技力 。 NL 敌方回合结束时，你失去20点生命。"
+  },
+  "mon3tr:UnbreakableRefactoring": {
+    "NAME": "不毁重构",
+    "DESCRIPTION": "对各敌人造成 !D! 点伤害。 NL mon3tr:技力消耗 (12)：从弃牌堆右击此牌以放回手中，并提升 !M! 点伤害。"
+  },
+  "mon3tr:MemoryCrystal": {
+    "NAME": "记忆晶体",
+    "DESCRIPTION": "mon3tr:一次性 ，无法升级。 NL 选择本场战斗打出过的一张牌，将它的同名牌加入卡组。"
+  },
+  "mon3tr:NeverThere": {
+    "NAME": "从未离去",
+    "DESCRIPTION": "你每造成3次未 格挡 的攻击伤害，所有单位均分 !M! 层 mon3tr:晶核 。"
+  },
+
+  "mon3tr:StrategyOverload": {
+    "NAME": "策略：超负荷",
+    "DESCRIPTION": "不计入手牌。 NL 立即进入 mon3tr:超负荷回合 。 NL 右击此牌以切换 *策略 。",
+    "EXTENDED_DESCRIPTION": [
+      "我需要至少40点技力"
+    ]
+  },
+  "mon3tr:StrategyMeltdown": {
+    "NAME": "策略：熔毁",
+    "DESCRIPTION": "不计入手牌。 NL 立即进入 mon3tr:熔毁回合 。 NL 右击此牌以切换 *策略 。",
+    "EXTENDED_DESCRIPTION": [
+      "我需要至少80点技力"
+    ]
+  },
+  "mon3tr:ClockInsight": {
+    "NAME": "时光洞见",
+    "DESCRIPTION": " 保留 。 消耗 。 NL 抽 !M! 张牌。 NL 使抽到牌的 mon3tr:迭代 计数提升2点。"
+  },
+  "mon3tr:SpaceMiracle": {
+    "NAME": "广域奇迹",
+    "DESCRIPTION": " 保留 。 消耗 。 NL 获得 [E] 。 NL 使 *奇迹维度 以外手牌的 mon3tr:迭代 计数提升1点。",
+    "UPGRADE_DESCRIPTION": " 保留 。 消耗 。 NL 获得 [E] [E] 。 NL 使 *奇迹维度 以外手牌的 mon3tr:迭代 计数提升1点。"
+  },
+  "mon3tr:ThePastOne": {
+    "NAME": "自过往之人",
+    "DESCRIPTION": " 虚无 。 NL mon3tr:演化 2： *于此时之人 。 NL 获得 !B! 点 格挡 。 NL 此牌消耗时，每 mon3tr:迭代 1次你获得 !M! 点格挡。"
+  },
+  "mon3tr:TheNowOne": {
+    "NAME": "于此时之人",
+    "DESCRIPTION": " 虚无 。 NL mon3tr:演化 2： *自过往之人 。 NL 造成 !D! 点伤害。 NL 此牌消耗时，每 mon3tr:迭代 1次随机造成 !M! 点伤害。"
+  },
+  "mon3tr:MemoryFragment": {
+    "NAME": "记忆碎片",
+    "DESCRIPTION": " 消耗 。 NL 造成 !D! 点伤害。 NL 给予 !M! 层 mon3tr:晶核 。"
+  },
+  "mon3tr:SelfFix": {
+    "NAME": "自我修复",
+    "DESCRIPTION": "召唤 mon3tr:重构体 。",
+    "UPGRADE_DESCRIPTION": "召唤 mon3tr:重构体 。 NL 若已存在则先 mon3tr:吸收 场上的重构体。"
+  },
+  "mon3tr:BlackSnow": {
+    "NAME": "黑雪",
+    "DESCRIPTION": "消耗 。 NL 当此牌消耗时，使 *“追猎者” 立即行动一次。"
+  },
+  "mon3tr:CageOfPerson": {
+    "NAME": "人性的囚笼",
+    "DESCRIPTION": "在手中时，使相邻 !M! 张手牌不能被打出。"
+  },
+
+  "mon3tr:RelicPreviewCard": {
+    "NAME": "遗物名",
+    "DESCRIPTION": "遗物描述",
+    "EXTENDED_DESCRIPTION":[
+      "该遗物的效果",
+      "该遗物的注脚"
+    ]
+  },
+  "mon3tr:RebuildRelic": {
+    "NAME": "重构遗物",
+    "DESCRIPTION": "消耗 !M! 颗 *重构晶体 ，移除一件非 *bOSS 遗物，从3件随机遗物中选择一个获得。"
+  },
+  "mon3tr:RebuildCard": {
+    "NAME": "重构卡牌",
+    "DESCRIPTION": "消耗 !M! 颗 *重构晶体 ，移除一张非诅咒卡牌，从3张随机牌中选择一张加入卡组。"
+  },
+  "mon3tr:RebuildTechnic": {
+    "NAME": "充能",
+    "DESCRIPTION": "消耗 !M! 颗 *重构晶体 ，每场战斗初始技力提升8点。 NL 目前： !D! / !B!"
+  },
+  "mon3tr:RebuildProsts": {
+    "NAME": "塑造重构体",
+    "DESCRIPTION": "消耗 !M! 颗 *重构晶体 ，将一张 *自我修复 加入卡组。"
+  },
+  "mon3tr:RebuildReturn": {
+    "NAME": "返回",
+    "DESCRIPTION": "返回"
+  },
+  "mon3tr:MALMuscleAmyotrophy": {
+    "NAME": "恶性：肌肉萎缩",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 此牌生效或失效时，失去1点 力量 。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALEmotionDisorder": {
+    "NAME": "恶性：情绪失控",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 进行攻击时，所有敌人受到50％攻击值的伤害。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALNeuralRegression": {
+    "NAME": "恶性：神经退行",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 此牌生效或失效时，获得1层 虚弱 和 易伤 。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALImmuneDisorder": {
+    "NAME": "恶性：免疫混乱",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 获得 格挡 或生命时，使其降低50％。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENMuscleStrengthen": {
+    "NAME": "良性：肌肉强化",
+    "DESCRIPTION": "mon3tr:表达 ：对自己使用。 NL 生效时获得1点 敏捷 。 NL 失效时获得1点 力量 。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENEmotionStable": {
+    "NAME": "良性：情绪稳定",
+    "DESCRIPTION": "mon3tr:表达 ：对自己使用。 NL 受到攻击时，获得30％攻击值的 格挡 。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENNeuralEvolution": {
+    "NAME": "良性：神经演变",
+    "DESCRIPTION": "mon3tr:表达 ：对自己使用。 NL 此牌生效或失效时，失去1层 虚弱 、 易伤 和 脆弱 。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENImmuneDevelop": {
+    "NAME": "良性：免疫加固",
+    "DESCRIPTION": "mon3tr:表达 ：对自己使用。 NL 获得 格挡 或生命时，使其提升25％。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALIncapacitated": {
+    "NAME": "恶性：行动力丧失",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 此牌生效或失效时，失去2点 力量 。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALInjudicious": {
+    "NAME": "恶性：判断力丧失",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 进行攻击时，所有敌人受到100％攻击值的伤害。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALUnconcentrated": {
+    "NAME": "恶性：专注力丧失",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 此牌生效或失效时，获得2层 虚弱 和 易伤 。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:MALCureless": {
+    "NAME": "恶性：恢复力丧失",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 获得 格挡 或生命时，使其降低80％。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENCapacitated": {
+    "NAME": "良性：行动力凝聚",
+    "DESCRIPTION": "mon3tr:表达 ：对自己使用。 NL 生效时获得2点 敏捷 。 NL 失效时获得2点 力量 。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENJudicious": {
+    "NAME": "良性：判断力凝聚",
+    "DESCRIPTION": "mon3tr:表达 ：对自己使用。 NL 受到攻击时，获得50％攻击值的 格挡 。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENConcentrated": {
+    "NAME": "良性：专注力凝聚",
+    "DESCRIPTION": "mon3tr:表达 ：对自己使用。 NL 此牌生效或失效时，失去2层 虚弱 、 易伤 和 脆弱 。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:BENCurable": {
+    "NAME": "良性：恢复力凝聚",
+    "DESCRIPTION": "mon3tr:表达 ：对自己使用。 NL 获得 格挡 或生命时，使其提升40％。",
+    "FLAVOR": "卡图制作中……",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "mon3tr:SYSDrugResistance": {
+    "NAME": "系统：抗药性溢生",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 生效时将此牌替换的 *表达牌 洗入抽牌堆。 NL 失效时进入弃牌堆。",
+    "FLAVOR": "卡图制作中……"
+  },
+  "mon3tr:SYSLupusErythematosus": {
+    "NAME": "系统：狼疮斑扩散",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 每次受到攻击后，获得1种随机负面效果。",
+    "FLAVOR": "卡图制作中……"
+  },
+  "mon3tr:SYSLCystineRestore": {
+    "NAME": "系统：结晶体贮积",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 此牌生效或失效时，将10％生命转化为 mon3tr:晶核 。",
+    "FLAVOR": "卡图制作中……"
+  },
+  "mon3tr:SYSReperfusionInjury": {
+    "NAME": "系统：再灌注损伤",
+    "DESCRIPTION": "mon3tr:表达 ：对敌人使用。 NL 此牌生效时，移除所有负面效果。失效时，以2倍层数获得这些效果。",
+    "FLAVOR": "卡图制作中……"
+  },
+  "mon3tr:PersonTrue": {
+    "NAME": "“人”",
+    "DESCRIPTION": "将 mon3tr:人性 置为正。 NL 获得1层 mon3tr:人性 。"
+  },
+  "mon3tr:PersonFalse": {
+    "NAME": "“兽”",
+    "DESCRIPTION": "将 mon3tr:人性 置为负。 NL 失去1层 mon3tr:人性 。"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "mon3tr:Mon2tr": {
+    "NAME": "Evidence of Existence",
+    "FLAVOR": "The Crystal regathers in vibrate, you restart your unfinished mission with determination.",
+    "DESCRIPTIONS": [
+      "At the start of combat, draw #b2 extra cards and gian [E] . Then draw #b1 less card in next two turn."
+    ]
+  },
+  "mon3tr:Mon3trR": {
+    "NAME": "Evidence of Existence · Continue",
+    "FLAVOR": "Your unfinished mission is picked up again, the fallens do their best to take a peek to the future, while fading.",
+    "DESCRIPTIONS": [
+      "In the every first turn of the combat, #yRetain your hand ."
+    ]
+  },
+  "mon3tr:ModuleOverclock": {
+    "NAME": "Module: Over Clock",
+    "FLAVOR": "Main target beat frequency amplifier activated……",
+    "DESCRIPTIONS": [
+      "At the start fo your #ymon3tr:Extra-Turn , draw #b2 cards."
+    ]
+  },
+  "mon3tr:ModuleRecycle": {
+    "NAME": "Module: Energy Recycling",
+    "FLAVOR": "Main target energy focusing amplifier activated……",
+    "DESCRIPTIONS": [
+      "At the strat of your #ymon3tr:Extra-Turn , gain [E] ."
+    ]
+  },
+  "mon3tr:MainModuleRecycle": {
+    "NAME": "Main Module: Excessive Energy Recycling",
+    "FLAVOR": "Main target excessive energy recycler deployed……",
+    "DESCRIPTIONS": [
+      "When enter an #ymon3tr:Extra-Turn , draw #b1 card and gain [E] for each energy you left unused in last turn (won't excess the energy limit)."
+    ]
+  },
+  "mon3tr:ModuleTarget": {
+    "NAME": "Module: Target Therapy",
+    "FLAVOR": "Main target targeted drug supplyer activated……",
+    "DESCRIPTIONS": [
+      "At the start of your #ymon3tr:Extra-Turn , gain #b8 #yBlock ."
+    ]
+  },
+  "mon3tr:ModuleReceptor": {
+    "NAME": "Module: Receptor Activated",
+    "FLAVOR": "Main target receptor hormone supplyer activated……",
+    "DESCRIPTIONS": [
+      "At the strat of your #ymon3tr:Extra-Turn , gain #b3 #yStrength and #yDexterity until the end of your turn."
+    ]
+  },
+  "mon3tr:MainModuleHelp": {
+    "NAME": "Mian Module: Battlefiled Supportment",
+    "FLAVOR": "Main target battlefiled supporting UAVs deployed……",
+    "DESCRIPTIONS": [
+      "When you enter an #ymon3tr:Extra-Turn , apply 1 #yWeak and 1 #yVulnerable ."
+    ]
+  },
+  "mon3tr:DeviceResonance": {
+    "NAME": "Equipment: Resonance Peripherals",
+    "FLAVOR": "Resonance Peripherals enabled, keep on monitoring……",
+    "DESCRIPTIONS": [
+      "At the end of your turn, for each enemy you have #yattacked , deal #b3 damage to all enemies."
+    ]
+  },
+  "mon3tr:DeviceHardness": {
+    "NAME": "Equipment: Protective Peripherals",
+    "FLAVOR": "Protective Peripherals enabled, keep on defending……",
+    "DESCRIPTIONS": [
+      "Every first time in a turn, when your Block is breaked, gian #b12 #yBlock at once ."
+    ]
+  },
+  "mon3tr:ModuleFast": {
+    "NAME": "Module: Quick Charge",
+    "FLAVOR": "Main target progressive energy iterator activated……",
+    "DESCRIPTIONS": [
+      "Increase extra #b2 #ymon3tr:Iterate count for the first card you play in every turn."
+    ]
+  },
+  "mon3tr:ModulePrepare": {
+    "NAME": "Module: Advance Preparation",
+    "FLAVOR": "Main target basic function iterator activated……",
+    "DESCRIPTIONS": [
+      "At the start of the combat, increase all of your cards' #ymon3tr:Iterate count by #b1 (you won't gain any #ymon3tr:SP from this)."
+    ]
+  },
+  "mon3tr:MainModuleDetect": {
+    "NAME": "Main Module: Light aiming",
+    "FLAVOR": "Main target light telemeter deployed……",
+    "DESCRIPTIONS": [
+      "After you play a #rattack, increase a random #yskill's #ymon3tr:Iterate count by #b1 in your hand."
+    ]
+  },
+  "mon3tr:ModuleRadiate": {
+    "NAME": "Module: Evoking Essence",
+    "FLAVOR": "Main target crystal evoking essential oil added……",
+    "DESCRIPTIONS": [
+      "When you gain our apply #ymon3tr:Crystal , gain or apply extra #b1 #ymon3tr:Crystal."
+    ]
+  },
+  "mon3tr:ModuleRecover": {
+    "NAME": "Module: Renewing Essence",
+    "FLAVOR": "Main target cell renewing essential oil added……",
+    "DESCRIPTIONS": [
+      "When you lose HP, gain #b2 #ymon3tr:Crystal ."
+    ]
+  },
+  "mon3tr:MainModuleColdness": {
+    "NAME": "Main Module: Spray Freezing",
+    "FLAVOR": "Main target spray freezer deployed……",
+    "DESCRIPTIONS": [
+      "At the start of combat, apply #b1 #ymon3tr:Disorder-Crystal to all enemies ."
+    ]
+  },
+  "mon3tr:M3LZ": {
+    "NAME": "M3 Claw",
+    "FLAVOR": "\",Mon3tr, your hand is so soft~\" ——Rosmontis",
+    "DESCRIPTIONS": [
+      "When you attack an enemy, gain 1 #ymon3tr:SP . NL If you have #yM3 #yArmor , when an enemy dies, you gain 20 #ySP ."
+    ]
+  },
+  "mon3tr:M3HJ": {
+    "NAME": "M3 Armor",
+    "FLAVOR": "\"Mon3tr, see you in the court! We shall not back until exhaust today !\" ———Blaze",
+    "DESCRIPTIONS": [
+      "After you are damaged, gain 2 #yBlock . NL If you have #yM3 #yClaw , when you would die, consume 40 #ymon3tr:SP and heal 20HP instead."
+    ]
+  },
+
+  "mon3tr:SpecialSeal": {
+    "NAME": "Mon3tr's Specialized Module",
+    "FLAVOR": "Special operation permission obtaining…… Permission verifying success——Mon3tr——Combat limitation lifting permitted",
+    "DESCRIPTIONS": [
+      "Increase your #ymon3tr:SP limit to #b100 . NL Gain #b10 SP, at the start of your turn."
+    ]
+  },
+  "mon3tr:RephaseEnantiomer": {
+    "NAME": "Composite Phase Reflector",
+    "FLAVOR": "New materials that still in experimental stage, which can not only withsand high output power density, but also appears to be self-adaptive to the Arts.",
+    "DESCRIPTIONS": [
+      "Every time you deal 10 damage in total, gain #b2 #yBlock . NL However, in the #ymon3tr:Extra-Turn , gain #b4 Block instead."
+    ]
+  },
+  "mon3tr:Remainings": {
+    "NAME": "The Remainings",
+    "FLAVOR": " Originium has taken over the land, and what she envisioned has become a reality. She has enumerated and entrusted everything else to the others, leaving only her name as she hones her mission into a sharp blade.",
+    "DESCRIPTIONS": [
+      "After the first card you play at every turn, if this turn is an #ymon3tr:Extra-Turn Upgrade your hand, otherwise gain [E] ."
+    ]
+  },
+
+  "mon3tr:BadOrganization": {
+    "NAME": "Deteriorative Organization",
+    "FLAVOR": "Ancient dense connective tissue found in the Infy Icefield that lies on the north of Sami. This tissue can be used to reproduce certain scene in Mon3tr's memory.",
+    "DESCRIPTIONS": [
+      "When you finish #yThe #yEnd or #ymon3tr:Simulation-Domain , enter Simulation Domain:As the Empire's Shadow. NL #rCan't #rbe #rReconstructed."
+    ]
+  },
+  "mon3tr:GeneSeed": {
+    "NAME": "Nurse's Gene Seed",
+    "FLAVOR": "While collective evolution is always promoted by individual gene mutation, collective wisdom can help individuals to solve their problems. This gene seed can be used to reproduce certain scene in Mon3tr's memory.",
+    "DESCRIPTIONS": [
+      "When you finish #yThe #yEnd or #ymon3tr:Simulation-Domain , enter Simulation Domain:Mártus's Sophontheatrum. NL #rCan't #rbe #rReconstructed."
+    ]
+  },
+  "mon3tr:LiveDust": {
+    "NAME": "Activated Dust",
+    "FLAVOR": "The waste from Terra's Originium industrial production is extremely dangerous. Please dispose of it properly. A~choo! This can of dust can be used to reproduce certain scene in Mon3tr's memory.",
+    "DESCRIPTIONS": [
+      "When you finish #yThe #yEnd or #ymon3tr:Simulation-Domain , enter Simulation Domain:Awakening, a Dream's End . NL #rCan't be Reconstructed."
+    ]
+  }
+}
