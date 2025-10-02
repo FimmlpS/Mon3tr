@@ -6,15 +6,20 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 
 public class IncreaseIterationAction extends AbstractGameAction {
     public IncreaseIterationAction(AbstractMon3trCard c){
+        this(c,1);
+    }
+
+    public IncreaseIterationAction(AbstractMon3trCard c, int amount){
         this.c = c;
+        this.amount = amount;
     }
 
     AbstractMon3trCard c;
 
     @Override
     public void update() {
-        if(c!=null){
-            c.increaseIteration(1);
+        if(c!=null && this.amount >= 0){
+            c.increaseIteration(this.amount);
         }
         this.isDone = true;
     }

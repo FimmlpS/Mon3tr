@@ -32,6 +32,8 @@ public class FocusPower extends AbstractPower {
 
     @Override
     public void onAfterUseCard(AbstractCard card, UseCardAction action) {
+        if(card.type != AbstractCard.CardType.ATTACK)
+            return;
         this.flashWithoutSound();
         addToBot(new ApplyPowerAction(AbstractDungeon.player,AbstractDungeon.player,new PersonalityPower(AbstractDungeon.player,-amount),-amount));
     }

@@ -135,7 +135,7 @@
     "NAMES": [
       "humanity"
     ],
-    "DESCRIPTION": "If positive, you take 7% less damage from attack for each Humanity you have (At most 35%). NL If negative, you deal 10% more damage through Attack for each Humanity you have (At most 50%) NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative."
+    "DESCRIPTION": "If positive, you take 7% less damage from attack for each Humanity you have. NL If negative, you deal 10% more damage through Attack for each Humanity you have. NL At the start of your turn, decrease Humanity to 5; if this is #yExtra-turn, you can set your Humanity as positive or negative."
   },
   {
     "NAMES": [

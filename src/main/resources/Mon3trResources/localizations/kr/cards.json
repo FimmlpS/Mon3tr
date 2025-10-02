@@ -101,7 +101,7 @@
   },
   "mon3tr:ShiningTogether": {
     "NAME": "함께 빛나리",
-    "DESCRIPTION": " mon3tr:진화 !M! : 매 턴 처음 사용된 카드. NL 피해를 !D! 줍니다. NL 이 카드가 *진화하면, 조건 카드와 이 카드의 피해량이 !M! 증가합니다."
+    "DESCRIPTION": " mon3tr:Evolve !M! : Non-cost-0 card. NL Deal !D! damage. NL When trigger *Evolve , increase this card's damage and source's mon3tr:Iterate counter by !M!."
   },
   "mon3tr:FadeAndGrow": {
     "NAME": "쇠퇴 그리고 성장",
@@ -128,11 +128,11 @@
   },
   "mon3tr:ExistInNameOnly": {
     "NAME": "유명무실",
-    "DESCRIPTION": "피해를 !D! 줍니다. NL 추가 피해를 !D! 줍니다. 이전과 입힌 피해량이 다를 때마다 추가 피해를 한 번 더 줍니다."
+    "DESCRIPTION": "Deal !D! damage. NL Deal again with damage(-3) after each deal, up to a maximum of mon3tr:Iteration counter."
   },
   "mon3tr:DensificationBody": {
     "NAME": "고밀도화",
-    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 자신의 mon3tr:결정 만큼 이 카드의 방어도가 증가합니다."
+    "DESCRIPTION": "Gain !B! Block . NL The mon3tr:Crystal you have will increase the block you gain from this card. NL If your mon3tr:Humanity is negative, deal equal damage to all enemies."
   },
   "mon3tr:NewLive": {
     "NAME": "재탄생",
@@ -220,7 +220,7 @@
   },
   "mon3tr:HotShock": {
     "NAME": "히트 쇼크",
-    "DESCRIPTION": "방어도를 !B! 얻습니다. NL [E] 를 잃고 이 카드를 mon3tr:전사 합니다. NL mon3tr:엑스트라 *턴 이라면 2 번 발동합니다."
+    "DESCRIPTION": "Gain !B! Block . NL Lose [E] and mon3tr:Transcript this card. NL If your mon3tr:Humanity is positive, the effect will be triggered twice."
   },
   "mon3tr:PolishClaws": {
     "NAME": "발톱 광내기",
@@ -290,7 +290,7 @@
 
   "mon3tr:NamedMonster": {
     "NAME": "내 이름은 \"Monster\"",
-    "DESCRIPTION": "Gain !M! mon3tr:Humanity . NL Reset the effect of positive and negative mon3tr:Humanity to 10% and 15% separately."
+    "DESCRIPTION": "모든 카드는 mon3tr:반복 횟수만큼, 피해량과 방어도가 1 증가합니다."
   },
   "mon3tr:NoLongerSung": {
     "NAME": "더는 칭송받지 않는 자",

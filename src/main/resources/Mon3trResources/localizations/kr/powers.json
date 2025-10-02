@@ -224,10 +224,10 @@
     "DESCRIPTIONS": [
       "Decrease the attack you receive by #b",
       "Increase the attack you deal by #b",
-      "% (35% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
-      "% (50% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
-      "% (50% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
-      "% (75% at most). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative."
+      "% (7% for each, decrease to 5 every turn). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
+      "% (10% for each, decrease to 5 every turn). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
+      "% (10% for each, decrease to 5 every turn). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative.",
+      "% (15% for each, decrease to 5 every turn). NL At the start of your #yExtra-turn , you can set your Humanity as positive or negative."
     ]
   }
 }

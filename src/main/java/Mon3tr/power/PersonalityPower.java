@@ -37,7 +37,8 @@ public class PersonalityPower extends AbstractPower {
     }
 
     private boolean hasMonster(){
-        return this.owner.hasPower(MonsterPower.POWER_ID);
+        //return this.owner.hasPower(MonsterPower.POWER_ID);
+        return false;
     }
 
     @Override
@@ -45,10 +46,10 @@ public class PersonalityPower extends AbstractPower {
         boolean hasMonster = this.hasMonster();
         int tmpAmount = this.amount;
         int percent = 0;
-        if(tmpAmount>5)
-            tmpAmount = 5;
-        else if(tmpAmount<-5)
-            tmpAmount = -5;
+//        if(tmpAmount>5)
+//            tmpAmount = 5;
+//        else if(tmpAmount<-5)
+//            tmpAmount = -5;
         if(tmpAmount>0)
             percent = (hasMonster?10:7) *tmpAmount;
         else
@@ -66,12 +67,12 @@ public class PersonalityPower extends AbstractPower {
     public void stackPower(int stackAmount) {
         this.fontScale = 8.0F;
         this.amount += stackAmount;
-        if (this.amount >= 5) {
-            this.amount = 5;
-        }
-        if (this.amount <= -5) {
-            this.amount = -5;
-        }
+//        if (this.amount >= 5) {
+//            this.amount = 5;
+//        }
+//        if (this.amount <= -5) {
+//            this.amount = -5;
+//        }
     }
 
     @Override
@@ -84,8 +85,11 @@ public class PersonalityPower extends AbstractPower {
 //        else {
         boolean hasMonster = this.hasMonster();
         if(amount>0){
-            float decrease = (hasMonster?0.1F:0.07F) * Math.min(amount, 5);
+            //float decrease = (hasMonster?0.1F:0.07F) * Math.min(amount, 5);
+            float decrease = (hasMonster?0.1F:0.07F) * amount;
             blv -= decrease;
+            if(blv<0)
+                blv = 0;
         }
         if(type == DamageInfo.DamageType.NORMAL){
             return damage * blv;
@@ -98,7 +102,8 @@ public class PersonalityPower extends AbstractPower {
         float blv = 1F;
         boolean hasMonster = this.hasMonster();
         if(amount<0){
-            float increase = (hasMonster?0.15F:0.1F) * Math.min(-amount, 5);
+            //float increase = (hasMonster?0.15F:0.1F) * Math.min(-amount, 5);
+            float increase = (hasMonster?0.15F:0.1F) * -amount;
             blv += increase;
         }
 //        else {
@@ -118,6 +123,20 @@ public class PersonalityPower extends AbstractPower {
             this.updateDescription();
             AbstractDungeon.onModifyPower();
         }
+    }
+
+    @Override
+    public void atStartOfTurn() {
+        if(this.amount>5){
+            this.amount = 5;
+            this.fontScale = 8.0F;
+        }
+        else if(this.amount<-5){
+            this.amount = -5;
+            this.fontScale = 8.0F;
+        }
+        updateDescription();
+        AbstractDungeon.onModifyPower();
     }
 
     @Override

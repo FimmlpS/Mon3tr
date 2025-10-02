@@ -87,7 +87,7 @@ public class Mon3trSave {
         MeltdownPatch.meltDownCounterMax = 80;
         CrystalPatch.crystalAmount = 0;
         TheSimulation.currentType = 0;
-        SimulationPatch.SimulationRelicChance = 0.1F;
+        SimulationPatch.SimulationRelicChance = 0.3F;
         SimulationPatch.EnterMNEmperor = false;
         SimulationPatch.EnteredMNEmperor = false;
         SimulationPatch.EnterMNDsbish = false;

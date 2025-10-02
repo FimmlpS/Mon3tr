@@ -15,14 +15,14 @@ public class NamedMonster extends AbstractMon3trCard {
 
     public NamedMonster(){
         super(ID, cardStrings.NAME,3, cardStrings.DESCRIPTION, CardType.POWER,CardRarity.RARE,CardTarget.SELF);
-        this.baseMagicNumber = 3;
-        this.magicNumber = 3;
+        this.baseMagicNumber = 1;
+        this.magicNumber = 1;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        addToBot(new ApplyPowerAction(p,p,new PersonalityPower(p,magicNumber),magicNumber));
-        addToBot(new ApplyPowerAction(p,p,new MonsterPower(p)));
+        //addToBot(new ApplyPowerAction(p,p,new PersonalityPower(p,magicNumber),magicNumber));
+        addToBot(new ApplyPowerAction(p,p,new MonsterPower(p,magicNumber),magicNumber));
     }
 
     @Override

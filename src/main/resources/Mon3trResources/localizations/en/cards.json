@@ -101,7 +101,7 @@
   },
   "mon3tr:ShiningTogether": {
     "NAME": "With Our Power Combine",
-    "DESCRIPTION": " mon3tr:Evolve !M! : first card in a turn. NL Deal !D! damage. NL When trigger *Evolve , increase this card and the source's damage by !M!."
+    "DESCRIPTION": " mon3tr:Evolve !M! : Non-cost-0 card. NL Deal !D! damage. NL When trigger *Evolve , increase this card's damage and source's mon3tr:Iterate counter by !M!."
   },
   "mon3tr:FadeAndGrow": {
     "NAME": "Wane And Wax",
@@ -129,11 +129,11 @@
   },
   "mon3tr:ExistInNameOnly": {
     "NAME": "Nothing to Shield",
-    "DESCRIPTION": "Deal !D! damage. NL Deal !D! damage again, if the unblocked damage dealt is unequal to the last time, deal agian."
+    "DESCRIPTION": "Deal !D! damage. NL Deal again with damage(-3) after each deal, up to a maximum of mon3tr:Iteration counter."
   },
   "mon3tr:DensificationBody": {
     "NAME": "Densification",
-    "DESCRIPTION": "Gain !B! Block . NL The mon3tr:Crystal you have will increase the block you gain from this card."
+    "DESCRIPTION": "Gain !B! Block . NL The mon3tr:Crystal you have will increase the block you gain from this card. NL If your mon3tr:Humanity is negative, deal equal damage to all enemies."
   },
   "mon3tr:NewLive": {
     "NAME": "Reborn",
@@ -221,7 +221,7 @@
   },
   "mon3tr:HotShock": {
     "NAME": "Heat Shock",
-    "DESCRIPTION": "Gain !B! Block . NL Lose [E] and mon3tr:Transcript this card. NL The effect will be triggered twice in mon3tr:Extra-Turn ."
+    "DESCRIPTION": "Gain !B! Block . NL Lose [E] and mon3tr:Transcript this card. NL If your mon3tr:Humanity is positive, the effect will be triggered twice."
   },
   "mon3tr:PolishClaws": {
     "NAME": "Armor Stamp",
@@ -291,7 +291,7 @@
 
   "mon3tr:NamedMonster": {
     "NAME": "Named As \"Monster\"",
-    "DESCRIPTION": "Gain !M! mon3tr:Humanity . NL Reset the effect of positive and negative mon3tr:Humanity to 10% and 15% separately."
+    "DESCRIPTION": "Whenever your card is #yIterated 1, the Block and damage you gain or deal from it will increase by 1."
   },
   "mon3tr:NoLongerSung": {
     "NAME": "The No Longer Eulogized",

@@ -101,7 +101,7 @@
   },
   "mon3tr:ShiningTogether": {
     "NAME": "相映生辉",
-    "DESCRIPTION": " mon3tr:演化 !M! ：每回合首张牌. NL 造成 !D! 点伤害。 NL 触发 *演化 时，提升此牌与来源各 !M! 点攻击值。"
+    "DESCRIPTION": " mon3tr:演化 !M! ：非0耗能牌。 NL 造成 !D! 点伤害。 NL 触发 *演化 时，来源增加 !M! 点 mon3tr:迭代 计数，此牌提升 !M! 点攻击值。"
   },
   "mon3tr:FadeAndGrow": {
     "NAME": "此消彼长",
@@ -129,11 +129,14 @@
   },
   "mon3tr:ExistInNameOnly": {
     "NAME": "形同虚设",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL 再造成 !D! 点伤害，若与上一次伤害量不同，重复此过程。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每次伤害后追加1次伤害量- !M! 的伤害，至多追加 mon3tr:迭代 计数次。",
+    "EXTENDED_DESCRIPTION": [
+      "造成 !D! 点伤害。 NL 再造成 !D! 点伤害，若与上一次伤害量不同，重复此过程。"
+    ]
   },
   "mon3tr:DensificationBody": {
     "NAME": "机体致密化",
-    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 你拥有的 mon3tr:晶核 层数会增加此牌的格挡。"
+    "DESCRIPTION": "获得 !B! 点 格挡 ，你的 mon3tr:晶核 会提升此牌格挡。 NL 若 mon3tr:人性 为负，对所有敌人造成等量伤害。"
   },
   "mon3tr:NewLive": {
     "NAME": "新生",
@@ -176,10 +179,10 @@
   },
   "mon3tr:StrategyFollowUp": {
     "NAME": "策略：追击",
-    "DESCRIPTION": "对本回合所有受到攻击的敌人造成 !D! 点伤害。",
+    "DESCRIPTION": "对本回合所有受过攻击的敌人造成 !D! 点伤害。",
     "EXTENDED_DESCRIPTION": [
       "策略：伏击",
-      "对本回合所有 *未 受到攻击的敌人造成 !D! 点伤害。"
+      "对本回合所有 *未 受攻击的敌人造成 !D! 点伤害。"
     ]
   },
   "mon3tr:InDustOrBlood": {
@@ -221,7 +224,7 @@
   },
   "mon3tr:HotShock": {
     "NAME": "热休克反应",
-    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 失去 [E] 并 mon3tr:转录 此牌。 NL 在 mon3tr:额外回合 生效2次。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 失去 [E] 并 mon3tr:转录 此牌。 NL 若 mon3tr:人性 为正，额外生效1次。"
   },
   "mon3tr:PolishClaws": {
     "NAME": "护甲刻印",
@@ -291,9 +294,10 @@
 
   "mon3tr:NamedMonster": {
     "NAME": "名为“怪物”",
-    "DESCRIPTION": "获得 !M! 层 mon3tr:人性 。 NL 正负数量的 mon3tr:人性 效果分别变为10％和15％。",
+    "DESCRIPTION": "你的牌每 mon3tr:迭代 1，你从中获得的 格挡 或造成的伤害提升 !M! 点。 NL （不超过原本的 !M! 倍）",
     "EXTENDED_DESCRIPTION": [
-      "你的牌每 mon3tr:迭代 1，你从中获得的 格挡 或造成的伤害提升 !M! 点。 NL （不超过原本的 !M! 倍）"
+
+      "获得 !M! 层 mon3tr:人性 。 NL 正负数量的 mon3tr:人性 效果分别变为10％和15％。"
     ]
   },
   "mon3tr:NoLongerSung": {

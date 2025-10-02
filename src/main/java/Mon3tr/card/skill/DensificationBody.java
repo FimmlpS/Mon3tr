@@ -1,9 +1,13 @@
 package Mon3tr.card.skill;
 
 import Mon3tr.card.AbstractMon3trCard;
+import Mon3tr.patch.OtherEnum;
 import Mon3tr.power.CrystalPower;
+import Mon3tr.power.PersonalityPower;
+import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -24,6 +28,10 @@ public class DensificationBody extends AbstractMon3trCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         addToBot(new GainBlockAction(p,block));
+        AbstractPower per = p.getPower(PersonalityPower.POWER_ID);
+        if(per!=null && per.amount<0){
+            addToBot(new DamageAllEnemiesAction(p, DamageInfo.createDamageMatrix(block,true), DamageInfo.DamageType.THORNS, OtherEnum.MON3TR_ATTACK_EFFECT));
+        }
     }
 
     @Override

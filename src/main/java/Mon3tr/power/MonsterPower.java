@@ -15,10 +15,11 @@ public class MonsterPower extends AbstractPower {
     public static final String POWER_ID = "mon3tr:MonsterPower";
     private static final PowerStrings powerStrings;
 
-    public MonsterPower(AbstractCreature owner) {
+    public MonsterPower(AbstractCreature owner, int amount) {
         this.name = powerStrings.NAME;
         this.ID = POWER_ID;
         this.owner = owner;
+        this.amount = amount;
         this.updateDescription();
         String path128 = "Mon3trResources/img/powers/MonsterPower_84.png";
         String path48 = "Mon3trResources/img/powers/MonsterPower_32.png";
@@ -30,35 +31,35 @@ public class MonsterPower extends AbstractPower {
 
     @Override
     public void updateDescription() {
-        //this.description = powerStrings.DESCRIPTIONS[0]+ this.amount + powerStrings.DESCRIPTIONS[1]+ this.amount + powerStrings.DESCRIPTIONS[2];
-        this.description = powerStrings.DESCRIPTIONS[3];
+        this.description = powerStrings.DESCRIPTIONS[0]+ this.amount + powerStrings.DESCRIPTIONS[1]+ this.amount + powerStrings.DESCRIPTIONS[2];
+        //this.description = powerStrings.DESCRIPTIONS[3];
     }
 
-    //    @Override
-//    public float atDamageGive(float damage, DamageInfo.DamageType type, AbstractCard card) {
-//        if(card instanceof AbstractMon3trCard){
-//            AbstractMon3trCard c = (AbstractMon3trCard) card;
-//            if(c.iterationCounter>0){
-//                float increase = (float)this.amount * c.iterationCounter;
-//                increase = Math.min(increase,card.baseDamage * this.amount);
-//                return type == DamageInfo.DamageType.NORMAL ? damage + increase: damage;
-//            }
-//        }
-//        return damage;
-//    }
-//
-//    @Override
-//    public float modifyBlock(float blockAmount, AbstractCard card) {
-//        if(card instanceof AbstractMon3trCard){
-//            AbstractMon3trCard c = (AbstractMon3trCard) card;
-//            if(c.iterationCounter>0){
-//                float increase = (float)this.amount * c.iterationCounter;
-//                increase = Math.min(increase,card.baseBlock * this.amount);
-//                return blockAmount + increase;
-//            }
-//        }
-//        return blockAmount;
-//    }
+        @Override
+    public float atDamageGive(float damage, DamageInfo.DamageType type, AbstractCard card) {
+        if(card instanceof AbstractMon3trCard){
+            AbstractMon3trCard c = (AbstractMon3trCard) card;
+            if(c.iterationCounter>0){
+                float increase = (float)this.amount * c.iterationCounter;
+                increase = Math.min(increase,card.baseDamage * this.amount);
+                return type == DamageInfo.DamageType.NORMAL ? damage + increase: damage;
+            }
+        }
+        return damage;
+    }
+
+    @Override
+    public float modifyBlock(float blockAmount, AbstractCard card) {
+        if(card instanceof AbstractMon3trCard){
+            AbstractMon3trCard c = (AbstractMon3trCard) card;
+            if(c.iterationCounter>0){
+                float increase = (float)this.amount * c.iterationCounter;
+                increase = Math.min(increase,card.baseBlock * this.amount);
+                return blockAmount + increase;
+            }
+        }
+        return blockAmount;
+    }
 
     static {
         powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);

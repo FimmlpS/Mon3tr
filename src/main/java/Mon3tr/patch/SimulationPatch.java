@@ -34,7 +34,7 @@ import com.megacrit.cardcrawl.ui.buttons.ProceedButton;
 import java.util.Iterator;
 
 public class SimulationPatch {
-    public static float SimulationRelicChance = 0.1F;
+    public static float SimulationRelicChance = 0.3F;
     public static boolean EnterMNEmperor = false;
     public static boolean EnteredMNEmperor = false;
     public static boolean EnterMNDsbish = false;

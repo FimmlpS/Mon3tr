@@ -262,7 +262,7 @@ public class RebuildEffect extends AbstractGameEffect {
                 relics.add(relicToAdd.get(0));
             }
             else {
-                SimulationPatch.SimulationRelicChance += 0.15F;
+                SimulationPatch.SimulationRelicChance += 0.2F;
             }
         }
     }
